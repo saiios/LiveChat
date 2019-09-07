@@ -1,0 +1,6 @@
+framework module Pods_LiveChatSwift {
+  umbrella header "Pods-LiveChatSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

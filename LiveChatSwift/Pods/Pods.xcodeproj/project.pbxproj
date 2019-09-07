@@ -1,0 +1,1624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		D97066D01EDC4450897370AB64800B82 /* CometChatPro */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A58B210E081DC82EDF9B31A6DA954850 /* Build configuration list for PBXAggregateTarget "CometChatPro" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = CometChatPro;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		01076922ED77BC9B4CAF059B8FBBE570 /* NSButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D17F2EF0B89BFBF5860E4516F94C7A54 /* NSButton+WebCache.m */; };
+		082252D45616AF575CF4E2E03D50A3F2 /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F2C6934EBCCD4800A9135D0B7C2BB78 /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F053AF8F8B75FFDCAEECB88AE98E4AE /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 530282649C9C06A360B12F2A64695B93 /* SDWebImagePrefetcher.m */; };
+		1063567B5B6505DDD4AFE3E1CC00BF1F /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BED47146EDED2F2AE17F16A4365EAC /* UIImageView+HighlightedWebCache.m */; };
+		14CE3F39AF0199DF9597FE48A7B85D9F /* Pods-LiveChatSwiftUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16A08A8889C829870AC96C1D44D53361 /* Pods-LiveChatSwiftUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15DCE4F0F51CA8743356F30D3CC5B1EF /* NSImage+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = DFB005388BEAA73D203C346D9E28DEB6 /* NSImage+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29F6E6F489A73770776BDE47DFCD7E04 /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CF89BC25C9C0A2F50EA388A00660F70 /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A008986EE836AA788E10CE3B14F0777 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B346D06D281D4D3C396F9BBE3DBF0FFE /* ImageIO.framework */; };
+		2F6892DE92F32DE1C4FA3C6A2FB8B51F /* SDWebImageCodersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E436444BE03841D7C0FF178924B2CC80 /* SDWebImageCodersManager.m */; };
+		33F1CEE52536E29DD45AD192B08B4EE3 /* SDWebImageTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FD48C48109EBC29D221E616D9ACEA8 /* SDWebImageTransition.m */; };
+		34A091954B430D2234E81E5C34762AE1 /* SDImageCacheConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E011C8C249822A0184D28F220681DD1F /* SDImageCacheConfig.m */; };
+		34CF2E7AE3A76CC37A976F0FF8353284 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B32C87A1888A022F25D9902F38A194 /* SDImageCache.m */; };
+		378639AD59231D876634C5FB48FA998A /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F9D84A2E266B00BA5903920E6E9F9 /* SDWebImageDownloaderOperation.m */; };
+		392256FCED3BBA7477E48DE431180BB8 /* NSImage+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FFE07C87B3B14063F95D822EFA459A /* NSImage+WebCache.m */; };
+		3D1C0E83EA2E4B4EFDEFF4DF24CBF126 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 270B4A9E150C704953CBBD11665843AC /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		495FC5F0ADC935D14B087E2286247975 /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A3B49BE47B55EDC50001F5B25DE828 /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A8248E022B4A719CF4FE54159752626 /* SDWebImageImageIOCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = D428F6806A32F0051C590282E55D9ABF /* SDWebImageImageIOCoder.m */; };
+		4AFFE18F35027F6C4AFAB26CD249BDAE /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C71FD7C7DB099BC82B583391D4570C9 /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DBB43822E7B391130C5825F4F7D97A5 /* SDAnimatedImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1155C056DA4CBE557CA46A85420DF /* SDAnimatedImageRep.m */; };
+		4EF8AF1431BD10AB67A24FC3CEAAC3A4 /* UIImage+ForceDecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 873D058759C78EF9B60382C490ED6E66 /* UIImage+ForceDecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F3B45CF9957AB861287379C4AF99567 /* UIImage+MemoryCacheCost.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1FAD090C8EF76AE12F8FAF24E77FFE /* UIImage+MemoryCacheCost.m */; };
+		4FE8F4421F089A03E865074C8248958A /* SDWebImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79540C1DF8F172F8383276673FE3C4D9 /* SDWebImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		532EEF46CB1AFE9032AC5A0A5AB199C6 /* UIView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D12859DCA5D5A645D705970528D6DA75 /* UIView+WebCache.m */; };
+		57CAA189266B23BA4E5F1E358A2D1832 /* Pods-LiveChatSwiftTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA21A7C3C82FCBDF1DA5E0996C31FB7 /* Pods-LiveChatSwiftTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AE72350B31152226EF977A2184AFB6A /* SDWebImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8720E86B37EDC86B59DBB848D235D9 /* SDWebImageCoder.m */; };
+		5E31EA4F41D3403F7383A51D927C3B15 /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CE7FE6812B7D441D9FB2B2EBDA96ACC /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FDC312B163F42757D25F518DABBF57D /* SDWebImageCoderHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F0D8582B1863342685D6936E1A5817 /* SDWebImageCoderHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		611423CC89413541A2057E0FA2E2FE12 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 7377068A340371AFCFC1C66BEAC278D6 /* SDWebImageCompat.m */; };
+		63EF4181585120C90759211B6AC87D90 /* SDImageCacheConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 39648A29726B6C2E2DD7D2BD122E5FC6 /* SDImageCacheConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		662A17761126CF04BA41671D523BA872 /* SDWebImageCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 92E60EC7451A8E1458411C244ED7C04B /* SDWebImageCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66D3B8F67A453804F2B551659F21E652 /* SDWebImageImageIOCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 387821EABB015A75AAB25F7F610714F1 /* SDWebImageImageIOCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67209B45C6D3B8C0449B6B1403F96E96 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = E02FEC84C90CB4A5D0F4A3C43D4474D2 /* UIImage+MultiFormat.m */; };
+		6B84632EAD6D461F4E7F19706A1ECE26 /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F78C3BF1B9D33D9FAF7D8AF2693D370 /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ECBB572ECF24F68BAF76D0ACE33FD12 /* SDWebImageCoderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7708DC78AB33A9959605F3EA9D1729 /* SDWebImageCoderHelper.m */; };
+		7E0D9AA6D80CBC8DE7692D733C720474 /* SDWebImageCodersManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A874A620A17FB030B1171E3FB491B55 /* SDWebImageCodersManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80FE6E6B734E548982C2BDCAB1E4FE6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7458A52B903C39C9CFC9B6A9BDCC5B2B /* Foundation.framework */; };
+		8A43FD4E0FA39759AA02058D5BF5E9CA /* Pods-LiveChatSwiftUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 997A3394E8DBF22B3B836943140D860E /* Pods-LiveChatSwiftUITests-dummy.m */; };
+		90DD0A8D8249543CEEF4BEDABFCA2C23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7458A52B903C39C9CFC9B6A9BDCC5B2B /* Foundation.framework */; };
+		9231FB941F688A4A6C960AC7CDE333CE /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DB4979CB4AC86183BE7D0F71183AB4 /* UIButton+WebCache.m */; };
+		95433059B9D1CEE3B9CC2A0658A536B7 /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 92FCC258036802155E8559A9825F4C6D /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9646B881026786DFF3EA0BE6BA090FB7 /* NSButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 11E79BE620EB69A685F108C251B6FEC2 /* NSButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9898FF57F455C0A1869D272BB9A8ECF6 /* Pods-LiveChatSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A094778E4F8029E73DD13661FAE0833 /* Pods-LiveChatSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A6F863C31E90EE225C011E44405AE62 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6AE841C91F7DD337C69AE46EA094C3 /* SDWebImageDownloader.m */; };
+		9FDC7A4A1AB7F8D429B8602E19A624EB /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 363874BE83DCEC135E8BC0087460D21D /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6B8E64C68F26C6BD5F43BBC6F4F8FBC /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 18AF08145515EA50FD008C5F8C06F6A5 /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9FB80C18CFDB765CD77DF8BBBE4252A /* Pods-LiveChatSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D62F40D7882015EC8506E5A8BF69A2DD /* Pods-LiveChatSwift-dummy.m */; };
+		AEDAA7E9B6708CEC423287CAE9FE83E5 /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2761369363053615751346987E8A8663 /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B335662A6C72B497AE727C798ADEF340 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7458A52B903C39C9CFC9B6A9BDCC5B2B /* Foundation.framework */; };
+		B847A80DD0242C3A4F0FE6B72A70AE54 /* SDWebImageFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 81EB8FA41960225FEB01792EFA580B72 /* SDWebImageFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA9C02ACAA6371CE9B1297D019AABE00 /* SDWebImageGIFCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = BA1A35FD425972471C0E2A473C7D61F7 /* SDWebImageGIFCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF8819260EC0FF8AEA312D3952699A75 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 611205DFC82AC6048FE38FDB78025955 /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C32ABCEAC0484DC9803C6EB04E47ADE6 /* SDWebImageGIFCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 809ED73FB22AD4C5E7F72FF8A0A53847 /* SDWebImageGIFCoder.m */; };
+		CAC4DA22DD2694FB3AECB2EFD72E0F44 /* SDWebImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AE38493D71499E5D789CD93FA1AC4A /* SDWebImageFrame.m */; };
+		CE86E2F8F58ABD10A055BC14011BF15C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7458A52B903C39C9CFC9B6A9BDCC5B2B /* Foundation.framework */; };
+		CFBF651BD6065477AB336E4A2A61F623 /* SDWebImageTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9082BB819C7D2F588ACCB03FAEAB85ED /* SDWebImageTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D21B5C45428E0F148E056971A90DD435 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 201B8077A66334A29F0C26EB5E4457FE /* UIView+WebCacheOperation.m */; };
+		D7CD8C869BFD9C1B13F498FCE1A5B0E1 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3C9CD96DFF629C3879264923DD8C6E /* UIImage+GIF.m */; };
+		DA651534E4CE6211325155C9DB571C7D /* UIImage+MemoryCacheCost.h in Headers */ = {isa = PBXBuildFile; fileRef = 858C265CC2457C961A96526A6EF35EFF /* UIImage+MemoryCacheCost.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB3F8FE663407E5B48593AFD6E48E766 /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1807374C147E5C0DC3C373D0942AB7 /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E283D42B8601D09C23379A371E5EE42A /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 518808188A25B2EA1A99B9E8E9718A6F /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E992F4363E194572061A208A95AAE26B /* SDAnimatedImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = A339CC15603757A61F7E0592F081AE41 /* SDAnimatedImageRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F286A2CD38580D7E496385A14CA4D43B /* Pods-LiveChatSwiftTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3CB171A8145C0870477234A4C0E25D /* Pods-LiveChatSwiftTests-dummy.m */; };
+		F449AB4FFBF27C134240CAB4CBB9C92F /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5E54B2F358963005877BE06A50DA7C /* NSData+ImageContentType.m */; };
+		F5417CE3C0186CFA97A0A8233D3EF020 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE27AF506C2F854CF6D3BB74375721D4 /* SDWebImageManager.m */; };
+		F5B945B199E256880DDBF3FA7F4AD3AB /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01918FC6DE4F50965B4944B51B1D5DB4 /* SDWebImage-dummy.m */; };
+		F92B5539F330FEFEEF0BAF24807C3B03 /* UIImage+ForceDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = 712481F3F44B51A93CF78399EB722875 /* UIImage+ForceDecode.m */; };
+		F9B16D4445469C1E02982016AAB7A797 /* UIView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 37E10808700B742F620CE0C0DAE58BAC /* UIView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD5D361F9C340B7EB0982B29AF40F13E /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 66629EF378A59119834A2298A5583A96 /* UIImageView+WebCache.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B675ABBCBE6CA8D3AFFC6FE66996BC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3847153A6E5EEFB86565BA840768F429;
+			remoteInfo = SDWebImage;
+		};
+		7B8557B29E00B2539CA6FF79B5E11A58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2684B7AA3087B555930ADAE0DF048EC8;
+			remoteInfo = "Pods-LiveChatSwift";
+		};
+		D40F7A09BF9FB225CDD02B30CAFC3C56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D97066D01EDC4450897370AB64800B82;
+			remoteInfo = CometChatPro;
+		};
+		E6CB78F73B1E50BF12F4721B35A07FF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2684B7AA3087B555930ADAE0DF048EC8;
+			remoteInfo = "Pods-LiveChatSwift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003D42C5F63E41C95BF6E85C20C9F45A /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = Vendors/WebRTC.framework; sourceTree = "<group>"; };
+		004A6465307C2686AC4408646D2C9F9B /* XMPPvCardTempEmail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPvCardTempEmail.h; path = CometChatPro.framework/Headers/XMPPvCardTempEmail.h; sourceTree = "<group>"; };
+		015C0B8C52C20C50A79E057BA995607A /* XMPPCapsResourceCoreDataStorageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPCapsResourceCoreDataStorageObject.h; path = CometChatPro.framework/Headers/XMPPCapsResourceCoreDataStorageObject.h; sourceTree = "<group>"; };
+		018B869440FF0019A1690ADCD05DC86E /* XMPPProcessOne.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPProcessOne.h; path = CometChatPro.framework/Headers/XMPPProcessOne.h; sourceTree = "<group>"; };
+		01918FC6DE4F50965B4944B51B1D5DB4 /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
+		01BED47146EDED2F2AE17F16A4365EAC /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		051B0D4589BA3A446B498090D2A6C126 /* Pods-LiveChatSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiveChatSwift-acknowledgements.plist"; sourceTree = "<group>"; };
+		089706FB6B09EA56DD41C7403910810C /* XMPPMessageCarbons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPMessageCarbons.h; path = CometChatPro.framework/Headers/XMPPMessageCarbons.h; sourceTree = "<group>"; };
+		08D8E2F59C90FA76953A99CFBCB622E3 /* NSXMLElement+XEP_0203.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSXMLElement+XEP_0203.h"; path = "CometChatPro.framework/Headers/NSXMLElement+XEP_0203.h"; sourceTree = "<group>"; };
+		0D0B55BC90343F911BB0FF8A1847171A /* XMPPMessage+XEP_0333.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPPMessage+XEP_0333.h"; path = "CometChatPro.framework/Headers/XMPPMessage+XEP_0333.h"; sourceTree = "<group>"; };
+		0D35CC07EBB6EAD0A4A1D290E6D9FF96 /* XMPPMessageArchiving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPMessageArchiving.h; path = CometChatPro.framework/Headers/XMPPMessageArchiving.h; sourceTree = "<group>"; };
+		0D9414BA2E2BE8CDC2B80A95928BC4B1 /* XMPPRosterMemoryStoragePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRosterMemoryStoragePrivate.h; path = CometChatPro.framework/Headers/XMPPRosterMemoryStoragePrivate.h; sourceTree = "<group>"; };
+		0E1F7CE06676758053252241B3EEC9B1 /* Pods-LiveChatSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LiveChatSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0F2C6934EBCCD4800A9135D0B7C2BB78 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
+		0F78C3BF1B9D33D9FAF7D8AF2693D370 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		11291C25300038D85319E539C8E25C3A /* Pods-LiveChatSwiftTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiveChatSwiftTests-Info.plist"; sourceTree = "<group>"; };
+		11BF224DD12258D9EA4B97B9430EA887 /* Pods-LiveChatSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiveChatSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		11E79BE620EB69A685F108C251B6FEC2 /* NSButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSButton+WebCache.h"; path = "SDWebImage/NSButton+WebCache.h"; sourceTree = "<group>"; };
+		13D191D81A1DB0605FD2B81DDD35A544 /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
+		14B07B2C7C3EB39C65CC3BA509252FFF /* XMPPDeprecatedPlainAuthentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPDeprecatedPlainAuthentication.h; path = CometChatPro.framework/Headers/XMPPDeprecatedPlainAuthentication.h; sourceTree = "<group>"; };
+		15EFEA7A3F8622C78D0FEF5B71EBA05B /* XMPPvCardTempAdr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPvCardTempAdr.h; path = CometChatPro.framework/Headers/XMPPvCardTempAdr.h; sourceTree = "<group>"; };
+		1642F94E2AF3DFE34EF523856B147F0E /* NSXMLElement+XEP_0297.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSXMLElement+XEP_0297.h"; path = "CometChatPro.framework/Headers/NSXMLElement+XEP_0297.h"; sourceTree = "<group>"; };
+		16A08A8889C829870AC96C1D44D53361 /* Pods-LiveChatSwiftUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LiveChatSwiftUITests-umbrella.h"; sourceTree = "<group>"; };
+		16CB3545E28668780DB611C4CA8C85E4 /* XMPPSCRAMSHA1Authentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPSCRAMSHA1Authentication.h; path = CometChatPro.framework/Headers/XMPPSCRAMSHA1Authentication.h; sourceTree = "<group>"; };
+		1714D3DD303F0264FB58AB38B34305E9 /* XMPPRoomCoreDataStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRoomCoreDataStorage.h; path = CometChatPro.framework/Headers/XMPPRoomCoreDataStorage.h; sourceTree = "<group>"; };
+		18274C7AE4C5438B3F44FC7BFCAAF466 /* XMPPOutgoingFileTransfer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPOutgoingFileTransfer.h; path = CometChatPro.framework/Headers/XMPPOutgoingFileTransfer.h; sourceTree = "<group>"; };
+		18AF08145515EA50FD008C5F8C06F6A5 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
+		1935F38650570EF03D207900B6EF8FD0 /* XMPPStreamManagement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPStreamManagement.h; path = CometChatPro.framework/Headers/XMPPStreamManagement.h; sourceTree = "<group>"; };
+		1AF287223E69D91E70AD259CA64C66EB /* XMPPMessage+XEP_0224.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPPMessage+XEP_0224.h"; path = "CometChatPro.framework/Headers/XMPPMessage+XEP_0224.h"; sourceTree = "<group>"; };
+		1B1FAD090C8EF76AE12F8FAF24E77FFE /* UIImage+MemoryCacheCost.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MemoryCacheCost.m"; path = "SDWebImage/UIImage+MemoryCacheCost.m"; sourceTree = "<group>"; };
+		1B9894B95DCBA48A87B89FBEBC90BA73 /* NSString+DDXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DDXML.h"; path = "CometChatPro.framework/Headers/NSString+DDXML.h"; sourceTree = "<group>"; };
+		1BFB98D23CDB7E5A4C0DA3D61B9763BF /* SDWebImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDWebImage-Info.plist"; sourceTree = "<group>"; };
+		1C71FD7C7DB099BC82B583391D4570C9 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
+		1C7351AF9B8EBE4B41AA6A619D842FB3 /* Pods-LiveChatSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiveChatSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		1CE7FE6812B7D441D9FB2B2EBDA96ACC /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
+		1CF89BC25C9C0A2F50EA388A00660F70 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
+		1D045AEE2257501CA6344E665F641E70 /* NSData+XMPP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+XMPP.h"; path = "CometChatPro.framework/Headers/NSData+XMPP.h"; sourceTree = "<group>"; };
+		1F2F9D84A2E266B00BA5903920E6E9F9 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		1F7918EB01B2555DB7EDC26AD260436A /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = CometChatPro.framework/Headers/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		1F7C02E21543FF155308BC2830416B91 /* XMPPAttentionModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPAttentionModule.h; path = CometChatPro.framework/Headers/XMPPAttentionModule.h; sourceTree = "<group>"; };
+		1F7EC219BC7C1C4962EAB2B3274A538C /* XMPPGoogleSharedStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPGoogleSharedStatus.h; path = CometChatPro.framework/Headers/XMPPGoogleSharedStatus.h; sourceTree = "<group>"; };
+		1FC1155C056DA4CBE557CA46A85420DF /* SDAnimatedImageRep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImageRep.m; path = SDWebImage/SDAnimatedImageRep.m; sourceTree = "<group>"; };
+		201B8077A66334A29F0C26EB5E4457FE /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		20AEB0245CA3AE00B34577D9C0B1CD2C /* Pods-LiveChatSwiftUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiveChatSwiftUITests-Info.plist"; sourceTree = "<group>"; };
+		23CB8E374C7C0E342C57CCD77D846C08 /* XMPPDeprecatedDigestAuthentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPDeprecatedDigestAuthentication.h; path = CometChatPro.framework/Headers/XMPPDeprecatedDigestAuthentication.h; sourceTree = "<group>"; };
+		24655442D1B0E14588F27E23C66C7B88 /* NSDate+XMPPDateTimeProfiles.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+XMPPDateTimeProfiles.h"; path = "CometChatPro.framework/Headers/NSDate+XMPPDateTimeProfiles.h"; sourceTree = "<group>"; };
+		25057C1DA0C8BC001AD1D13EC1663F29 /* XMPPResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPResultSet.h; path = CometChatPro.framework/Headers/XMPPResultSet.h; sourceTree = "<group>"; };
+		25D6AE9DBEAD152F36D18AA8834AAA6E /* XMPPCoreDataStorageProtected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPCoreDataStorageProtected.h; path = CometChatPro.framework/Headers/XMPPCoreDataStorageProtected.h; sourceTree = "<group>"; };
+		270B4A9E150C704953CBBD11665843AC /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		2761369363053615751346987E8A8663 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		27D4F6BA9BD70152B41CF6A9613ED8D4 /* XMPPPlainAuthentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPPlainAuthentication.h; path = CometChatPro.framework/Headers/XMPPPlainAuthentication.h; sourceTree = "<group>"; };
+		28C455A09869828C5FF9F11BE653EFF4 /* XMPPIQ+XEP_0066.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPPIQ+XEP_0066.h"; path = "CometChatPro.framework/Headers/XMPPIQ+XEP_0066.h"; sourceTree = "<group>"; };
+		2949183ADF2506E26C7648FE557286FC /* XMPPvCardCoreDataStorageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPvCardCoreDataStorageObject.h; path = CometChatPro.framework/Headers/XMPPvCardCoreDataStorageObject.h; sourceTree = "<group>"; };
+		2965E1B7F95B81B30D3E76A94018780D /* XMPPModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPModule.h; path = CometChatPro.framework/Headers/XMPPModule.h; sourceTree = "<group>"; };
+		2B7E5F03E47B6D2934A9CCD120B8A899 /* Pods-LiveChatSwiftTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LiveChatSwiftTests.modulemap"; sourceTree = "<group>"; };
+		2D7708DC78AB33A9959605F3EA9D1729 /* SDWebImageCoderHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCoderHelper.m; path = SDWebImage/SDWebImageCoderHelper.m; sourceTree = "<group>"; };
+		30B51B6A76E6E819BAC16CF495908F09 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = CometChatPro.framework/Headers/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		3251069D58C84161FAD01DD105DBAC96 /* XMPPvCardAvatarCoreDataStorageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPvCardAvatarCoreDataStorageObject.h; path = CometChatPro.framework/Headers/XMPPvCardAvatarCoreDataStorageObject.h; sourceTree = "<group>"; };
+		3546B77E305C7D8DE7A107B38C566ED6 /* Pods-LiveChatSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiveChatSwift-Info.plist"; sourceTree = "<group>"; };
+		358A314A5DA2EEE6596D7A79E2863B51 /* XMPPTransports.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPTransports.h; path = CometChatPro.framework/Headers/XMPPTransports.h; sourceTree = "<group>"; };
+		363874BE83DCEC135E8BC0087460D21D /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		36D7B376D240F9B0E26CD14BF086569A /* XMPPvCardAvatarModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPvCardAvatarModule.h; path = CometChatPro.framework/Headers/XMPPvCardAvatarModule.h; sourceTree = "<group>"; };
+		37E10808700B742F620CE0C0DAE58BAC /* UIView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCache.h"; path = "SDWebImage/UIView+WebCache.h"; sourceTree = "<group>"; };
+		387821EABB015A75AAB25F7F610714F1 /* SDWebImageImageIOCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageImageIOCoder.h; path = SDWebImage/SDWebImageImageIOCoder.h; sourceTree = "<group>"; };
+		39648A29726B6C2E2DD7D2BD122E5FC6 /* SDImageCacheConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheConfig.h; path = SDWebImage/SDImageCacheConfig.h; sourceTree = "<group>"; };
+		399E5C12E125424969C102CD1D72E1B8 /* XMPPParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPParser.h; path = CometChatPro.framework/Headers/XMPPParser.h; sourceTree = "<group>"; };
+		3A094778E4F8029E73DD13661FAE0833 /* Pods-LiveChatSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LiveChatSwift-umbrella.h"; sourceTree = "<group>"; };
+		3A845098DB2F44FF7950CC51F6E7C8F5 /* XMPPInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPInternal.h; path = CometChatPro.framework/Headers/XMPPInternal.h; sourceTree = "<group>"; };
+		3A874A620A17FB030B1171E3FB491B55 /* SDWebImageCodersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCodersManager.h; path = SDWebImage/SDWebImageCodersManager.h; sourceTree = "<group>"; };
+		3B55DB5C820B25C454847AD37D140802 /* XMPPMessage+XEP_0184.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPPMessage+XEP_0184.h"; path = "CometChatPro.framework/Headers/XMPPMessage+XEP_0184.h"; sourceTree = "<group>"; };
+		3B9970DB275A47898394EAC3EC1C895F /* XMPPIQ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPIQ.h; path = CometChatPro.framework/Headers/XMPPIQ.h; sourceTree = "<group>"; };
+		3EC443FAFAE7FD8C8EC7864DED6C4AC8 /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = CometChatPro.framework/Headers/DDTTYLogger.h; sourceTree = "<group>"; };
+		3F1334525CBF08584C775FACAB81C45C /* XMPPMessageArchiving_Contact_CoreDataObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPMessageArchiving_Contact_CoreDataObject.h; path = CometChatPro.framework/Headers/XMPPMessageArchiving_Contact_CoreDataObject.h; sourceTree = "<group>"; };
+		40A291C39DEE2DD198F2198C948A37AB /* XMPPSASLAuthentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPSASLAuthentication.h; path = CometChatPro.framework/Headers/XMPPSASLAuthentication.h; sourceTree = "<group>"; };
+		41DD3B7350277E939CFD0C7BEBB09C6E /* Pods-LiveChatSwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LiveChatSwift-frameworks.sh"; sourceTree = "<group>"; };
+		4552E8CD5FFF787623B7EE90713E2C7C /* Pods-LiveChatSwiftUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LiveChatSwiftUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		481C5CF6FD3D4FF8E585C5FDD5B5B936 /* XMPPIncomingFileTransfer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPIncomingFileTransfer.h; path = CometChatPro.framework/Headers/XMPPIncomingFileTransfer.h; sourceTree = "<group>"; };
+		48FFE07C87B3B14063F95D822EFA459A /* NSImage+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSImage+WebCache.m"; path = "SDWebImage/NSImage+WebCache.m"; sourceTree = "<group>"; };
+		4CBD70A7D7205716E7963E9038735314 /* Pods-LiveChatSwiftTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LiveChatSwiftTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4E3CB171A8145C0870477234A4C0E25D /* Pods-LiveChatSwiftTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LiveChatSwiftTests-dummy.m"; sourceTree = "<group>"; };
+		4EAA9B01DE765FC51592BD564B85A046 /* GCDMulticastDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDMulticastDelegate.h; path = CometChatPro.framework/Headers/GCDMulticastDelegate.h; sourceTree = "<group>"; };
+		50447633D6003976F566BF45B2E72420 /* RFImageToDataTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RFImageToDataTransformer.h; path = CometChatPro.framework/Headers/RFImageToDataTransformer.h; sourceTree = "<group>"; };
+		518808188A25B2EA1A99B9E8E9718A6F /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		51C92E2FD84CE2E98E4AF34BB2881A4B /* KissXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KissXML.h; path = CometChatPro.framework/Headers/KissXML.h; sourceTree = "<group>"; };
+		525AC535F0D0FD77A8A8C5344884DAEE /* XMPPSRVResolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPSRVResolver.h; path = CometChatPro.framework/Headers/XMPPSRVResolver.h; sourceTree = "<group>"; };
+		52BC0A623512A664CB887E28876102BB /* CometChatPro-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CometChatPro-Swift.h"; path = "CometChatPro.framework/Headers/CometChatPro-Swift.h"; sourceTree = "<group>"; };
+		52F7F194F61E10639C36B24D30D2599B /* XMPPvCardTempAdrTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPvCardTempAdrTypes.h; path = CometChatPro.framework/Headers/XMPPvCardTempAdrTypes.h; sourceTree = "<group>"; };
+		530282649C9C06A360B12F2A64695B93 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		5471955DB7536E2D6F4F5E31DCF3CA3D /* XEP_0223.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XEP_0223.h; path = CometChatPro.framework/Headers/XEP_0223.h; sourceTree = "<group>"; };
+		54D37FB8512E741F1FC7A72703759A15 /* XMPPRoomHybridStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRoomHybridStorage.h; path = CometChatPro.framework/Headers/XMPPRoomHybridStorage.h; sourceTree = "<group>"; };
+		58AF83E127224C0C8FA754D256A9114A /* Pods-LiveChatSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiveChatSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		59245EF7F3F75140F34A5A6F911031E4 /* JitsiMeet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JitsiMeet.framework; path = Vendors/JitsiMeet.framework; sourceTree = "<group>"; };
+		59DF7506B52E2A50B25DA8685C37B676 /* XMPP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPP.h; path = CometChatPro.framework/Headers/XMPP.h; sourceTree = "<group>"; };
+		5B7455EE6F1D71016EB997FB4DFC7DB5 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = CometChatPro.framework/Headers/FMDB.h; sourceTree = "<group>"; };
+		5BA14BDFA2317CEB467EBD40CDB3057E /* XMPPElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPElement.h; path = CometChatPro.framework/Headers/XMPPElement.h; sourceTree = "<group>"; };
+		5C5E54B2F358963005877BE06A50DA7C /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		5D344BE8FFDA7C37303212251738513E /* NSString+XEP_0106.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+XEP_0106.h"; path = "CometChatPro.framework/Headers/NSString+XEP_0106.h"; sourceTree = "<group>"; };
+		5D3D37624FFA5B01F5267E2F0A83DB91 /* NSNumber+XMPP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+XMPP.h"; path = "CometChatPro.framework/Headers/NSNumber+XMPP.h"; sourceTree = "<group>"; };
+		5EE8462512D9D98821F4A2C71A4C184A /* XMPPTime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPTime.h; path = CometChatPro.framework/Headers/XMPPTime.h; sourceTree = "<group>"; };
+		611205DFC82AC6048FE38FDB78025955 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
+		62621412B40B9B6D39364F69CCED20E2 /* Pods-LiveChatSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiveChatSwift.release.xcconfig"; sourceTree = "<group>"; };
+		62EE635FD1F95B2FF94F01F824B81B1E /* XMPPLastActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPLastActivity.h; path = CometChatPro.framework/Headers/XMPPLastActivity.h; sourceTree = "<group>"; };
+		637E9018CB9083A71C2E2296C1AEAA58 /* XMPPMessageArchiving_Message_CoreDataObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPMessageArchiving_Message_CoreDataObject.h; path = CometChatPro.framework/Headers/XMPPMessageArchiving_Message_CoreDataObject.h; sourceTree = "<group>"; };
+		63A5F563AC061E739E612D56600559BA /* XMPPXFacebookPlatformAuthentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPXFacebookPlatformAuthentication.h; path = CometChatPro.framework/Headers/XMPPXFacebookPlatformAuthentication.h; sourceTree = "<group>"; };
+		63CD3AE3FA1CE8427BFFF418AD8AAAE8 /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = CometChatPro.framework/Headers/DDFileLogger.h; sourceTree = "<group>"; };
+		652F429C7920DB60299426303F7D7043 /* XMPPMessage+XEP_0280.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPPMessage+XEP_0280.h"; path = "CometChatPro.framework/Headers/XMPPMessage+XEP_0280.h"; sourceTree = "<group>"; };
+		66629EF378A59119834A2298A5583A96 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		6B7101A8535ED1C84DA335CF93C3F8D1 /* XMPPGroupCoreDataStorageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPGroupCoreDataStorageObject.h; path = CometChatPro.framework/Headers/XMPPGroupCoreDataStorageObject.h; sourceTree = "<group>"; };
+		6C1217878A017FDFBB507A6192CC2804 /* XMPPUserCoreDataStorageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPUserCoreDataStorageObject.h; path = CometChatPro.framework/Headers/XMPPUserCoreDataStorageObject.h; sourceTree = "<group>"; };
+		6C3DFDF25DEDD1FCBC85A8B2A2EC9971 /* DDXMLNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLNode.h; path = CometChatPro.framework/Headers/DDXMLNode.h; sourceTree = "<group>"; };
+		6E24B32394C34D79B1FBA0E3294D2651 /* XMPPMessage+XEP_0172.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPPMessage+XEP_0172.h"; path = "CometChatPro.framework/Headers/XMPPMessage+XEP_0172.h"; sourceTree = "<group>"; };
+		70C36FDFB618F889876075176AB12F97 /* XMPPURI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPURI.h; path = CometChatPro.framework/Headers/XMPPURI.h; sourceTree = "<group>"; };
+		7105E88FF284B6CE8EEB76D1626EA5F7 /* XMPPMessage+XEP_0066.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPPMessage+XEP_0066.h"; path = "CometChatPro.framework/Headers/XMPPMessage+XEP_0066.h"; sourceTree = "<group>"; };
+		712481F3F44B51A93CF78399EB722875 /* UIImage+ForceDecode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ForceDecode.m"; path = "SDWebImage/UIImage+ForceDecode.m"; sourceTree = "<group>"; };
+		7377068A340371AFCFC1C66BEAC278D6 /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
+		7458A52B903C39C9CFC9B6A9BDCC5B2B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76A3F0DBFEBBA6DC0A8E9F216B255158 /* XMPPMUC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPMUC.h; path = CometChatPro.framework/Headers/XMPPMUC.h; sourceTree = "<group>"; };
+		76F527453208CB7DEEBD99A5770E46D9 /* XMPPResourceMemoryStorageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPResourceMemoryStorageObject.h; path = CometChatPro.framework/Headers/XMPPResourceMemoryStorageObject.h; sourceTree = "<group>"; };
+		771EBCE9581D5AAB51965239D0CBDD40 /* XMPPRoomMessageHybridCoreDataStorageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRoomMessageHybridCoreDataStorageObject.h; path = CometChatPro.framework/Headers/XMPPRoomMessageHybridCoreDataStorageObject.h; sourceTree = "<group>"; };
+		79540C1DF8F172F8383276673FE3C4D9 /* SDWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-umbrella.h"; sourceTree = "<group>"; };
+		79EE7FF5638B6EF72322BDD0BE843555 /* CometChatPro.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CometChatPro.xcconfig; sourceTree = "<group>"; };
+		7AA95F98C79222D8C0FBAB0ACA7FE6FB /* XMPPStringPrep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPStringPrep.h; path = CometChatPro.framework/Headers/XMPPStringPrep.h; sourceTree = "<group>"; };
+		7B96147DE5278B4BD18655FF4DE6AAB6 /* XMPPvCardTempTel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPvCardTempTel.h; path = CometChatPro.framework/Headers/XMPPvCardTempTel.h; sourceTree = "<group>"; };
+		7C1D84D37EF130489AC61612C70334A4 /* CometChatPro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CometChatPro.h; path = CometChatPro.framework/Headers/CometChatPro.h; sourceTree = "<group>"; };
+		7C5EED334ABFD68E88155B70AD21126E /* XMPPBlocking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPBlocking.h; path = CometChatPro.framework/Headers/XMPPBlocking.h; sourceTree = "<group>"; };
+		7E027135FB94872EF594FFE995CB4BF6 /* XMPPMessageDeliveryReceipts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPMessageDeliveryReceipts.h; path = CometChatPro.framework/Headers/XMPPMessageDeliveryReceipts.h; sourceTree = "<group>"; };
+		7E8720E86B37EDC86B59DBB848D235D9 /* SDWebImageCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCoder.m; path = SDWebImage/SDWebImageCoder.m; sourceTree = "<group>"; };
+		7E913AB6729B880EDF1EAA8DBF766418 /* XMPPRoomMessageMemoryStorageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRoomMessageMemoryStorageObject.h; path = CometChatPro.framework/Headers/XMPPRoomMessageMemoryStorageObject.h; sourceTree = "<group>"; };
+		7EF4FCF362BA07D8907F494C623338A0 /* XMPPMessage+XEP_0085.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPPMessage+XEP_0085.h"; path = "CometChatPro.framework/Headers/XMPPMessage+XEP_0085.h"; sourceTree = "<group>"; };
+		7F5DCE5639CB871F7757072FCF413D23 /* XMPPPrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPPrivacy.h; path = CometChatPro.framework/Headers/XMPPPrivacy.h; sourceTree = "<group>"; };
+		800B97FE24285D5F7136472DEF86C25B /* XMPPvCardTempLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPvCardTempLabel.h; path = CometChatPro.framework/Headers/XMPPvCardTempLabel.h; sourceTree = "<group>"; };
+		809ED73FB22AD4C5E7F72FF8A0A53847 /* SDWebImageGIFCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageGIFCoder.m; path = SDWebImage/SDWebImageGIFCoder.m; sourceTree = "<group>"; };
+		81EB8FA41960225FEB01792EFA580B72 /* SDWebImageFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageFrame.h; path = SDWebImage/SDWebImageFrame.h; sourceTree = "<group>"; };
+		821D1AA661D1EF56AE9DA55C2FCB18E9 /* XMPPBandwidthMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPBandwidthMonitor.h; path = CometChatPro.framework/Headers/XMPPBandwidthMonitor.h; sourceTree = "<group>"; };
+		82310EE249B44EDD916A5B9F5D32B5F1 /* TURNSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TURNSocket.h; path = CometChatPro.framework/Headers/TURNSocket.h; sourceTree = "<group>"; };
+		82D883716AF8D2E7752FE694E590A635 /* XMPPFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPFramework.h; path = CometChatPro.framework/Headers/XMPPFramework.h; sourceTree = "<group>"; };
+		8340F4A107F2620BA2C9FEE7C77720CB /* XMPPRoomMemoryStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRoomMemoryStorage.h; path = CometChatPro.framework/Headers/XMPPRoomMemoryStorage.h; sourceTree = "<group>"; };
+		83E605525F4BD559C693CF53AF500494 /* XMPPCapsCoreDataStorageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPCapsCoreDataStorageObject.h; path = CometChatPro.framework/Headers/XMPPCapsCoreDataStorageObject.h; sourceTree = "<group>"; };
+		858C265CC2457C961A96526A6EF35EFF /* UIImage+MemoryCacheCost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MemoryCacheCost.h"; path = "SDWebImage/UIImage+MemoryCacheCost.h"; sourceTree = "<group>"; };
+		85AE38493D71499E5D789CD93FA1AC4A /* SDWebImageFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageFrame.m; path = SDWebImage/SDWebImageFrame.m; sourceTree = "<group>"; };
+		8639A2F8564BB1653D37B6A7F355DE5E /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = CometChatPro.framework/Headers/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		8732E32D73161D5528C609D3C818AFA9 /* XMPPRoom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRoom.h; path = CometChatPro.framework/Headers/XMPPRoom.h; sourceTree = "<group>"; };
+		873D058759C78EF9B60382C490ED6E66 /* UIImage+ForceDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ForceDecode.h"; path = "SDWebImage/UIImage+ForceDecode.h"; sourceTree = "<group>"; };
+		8786E553499F81367EB5B9DAB1734D8B /* XMPPStreamManagementStanzas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPStreamManagementStanzas.h; path = CometChatPro.framework/Headers/XMPPStreamManagementStanzas.h; sourceTree = "<group>"; };
+		8805F34887CD4132F450D29E2C643806 /* XMPPUserMemoryStorageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPUserMemoryStorageObject.h; path = CometChatPro.framework/Headers/XMPPUserMemoryStorageObject.h; sourceTree = "<group>"; };
+		88CC00D14C620876A2154985AD5C032A /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLElementAdditions.h; path = CometChatPro.framework/Headers/DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		8AEF0D4C121F7BFBC9C33FD167421C9B /* XMPPLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPLogging.h; path = CometChatPro.framework/Headers/XMPPLogging.h; sourceTree = "<group>"; };
+		8D2B685D66645D75E15E089E810A1F3C /* Pods_LiveChatSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LiveChatSwiftUITests.framework; path = "Pods-LiveChatSwiftUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D6D55B4D20F94E9D2E8F2CEFBB94B66 /* DDXMLElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLElement.h; path = CometChatPro.framework/Headers/DDXMLElement.h; sourceTree = "<group>"; };
+		8E822F227403EDDEEFA869E57CF70845 /* XMPPResourceCoreDataStorageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPResourceCoreDataStorageObject.h; path = CometChatPro.framework/Headers/XMPPResourceCoreDataStorageObject.h; sourceTree = "<group>"; };
+		8F040781959ED87BE6614085576A5A1C /* XMPPvCardTempBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPvCardTempBase.h; path = CometChatPro.framework/Headers/XMPPvCardTempBase.h; sourceTree = "<group>"; };
+		90590AA29F1E6D471964BC0E02292BE3 /* XMPPRoomMessageCoreDataStorageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRoomMessageCoreDataStorageObject.h; path = CometChatPro.framework/Headers/XMPPRoomMessageCoreDataStorageObject.h; sourceTree = "<group>"; };
+		9082BB819C7D2F588ACCB03FAEAB85ED /* SDWebImageTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageTransition.h; path = SDWebImage/SDWebImageTransition.h; sourceTree = "<group>"; };
+		90AC6E45BF3A2A26BEEA282855BA29B1 /* XMPPJID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPJID.h; path = CometChatPro.framework/Headers/XMPPJID.h; sourceTree = "<group>"; };
+		911C7FF2B141A1DC9B60E683FB29187F /* XMPPDigestMD5Authentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPDigestMD5Authentication.h; path = CometChatPro.framework/Headers/XMPPDigestMD5Authentication.h; sourceTree = "<group>"; };
+		917DC887F44BE8BB42D2124B199C013F /* XMPPReconnect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPReconnect.h; path = CometChatPro.framework/Headers/XMPPReconnect.h; sourceTree = "<group>"; };
+		92E60EC7451A8E1458411C244ED7C04B /* SDWebImageCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCoder.h; path = SDWebImage/SDWebImageCoder.h; sourceTree = "<group>"; };
+		92FCC258036802155E8559A9825F4C6D /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
+		93038561C2BBF651811073E80901DDF1 /* Pods_LiveChatSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LiveChatSwiftTests.framework; path = "Pods-LiveChatSwiftTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		965F70222BFCCE662B53A0463749802F /* DDList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDList.h; path = CometChatPro.framework/Headers/DDList.h; sourceTree = "<group>"; };
+		980598CE9DD6F30C456F91E481D148EE /* XMPPRoomOccupantMemoryStorageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRoomOccupantMemoryStorageObject.h; path = CometChatPro.framework/Headers/XMPPRoomOccupantMemoryStorageObject.h; sourceTree = "<group>"; };
+		997A3394E8DBF22B3B836943140D860E /* Pods-LiveChatSwiftUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LiveChatSwiftUITests-dummy.m"; sourceTree = "<group>"; };
+		99B32C87A1888A022F25D9902F38A194 /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
+		99C57EB3A12DD087D5E6D5A8A9621660 /* XMPPRegistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRegistration.h; path = CometChatPro.framework/Headers/XMPPRegistration.h; sourceTree = "<group>"; };
+		99E5A3DB112EC871341F24FDDAA74117 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDDispatchQueueLogFormatter.h; path = CometChatPro.framework/Headers/DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		9B984A7AD7C52047455939CA180C71B0 /* XMPPXOAuth2Google.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPXOAuth2Google.h; path = CometChatPro.framework/Headers/XMPPXOAuth2Google.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E97CA9FDCF36A73163942C5378F6A2D /* XMPPIQ+LastActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPPIQ+LastActivity.h"; path = "CometChatPro.framework/Headers/XMPPIQ+LastActivity.h"; sourceTree = "<group>"; };
+		A05D19FED652E4A2CC2054BD248E2311 /* XMPPvCardTemp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPvCardTemp.h; path = CometChatPro.framework/Headers/XMPPvCardTemp.h; sourceTree = "<group>"; };
+		A0901A66D34F3E6535CF1FA9B9DD32F5 /* XMPPMessageArchivingCoreDataStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPMessageArchivingCoreDataStorage.h; path = CometChatPro.framework/Headers/XMPPMessageArchivingCoreDataStorage.h; sourceTree = "<group>"; };
+		A339CC15603757A61F7E0592F081AE41 /* SDAnimatedImageRep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageRep.h; path = SDWebImage/SDAnimatedImageRep.h; sourceTree = "<group>"; };
+		A49688B01218CEAD986B377FCFDA199E /* XMPPAutoTime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPAutoTime.h; path = CometChatPro.framework/Headers/XMPPAutoTime.h; sourceTree = "<group>"; };
+		A538CF3B3339EBDB52CF1068300C557C /* XMPPMessage+XEP_0308.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPPMessage+XEP_0308.h"; path = "CometChatPro.framework/Headers/XMPPMessage+XEP_0308.h"; sourceTree = "<group>"; };
+		A5F5E7AF760B2A59B30999A3FD9EF7E7 /* XMPPvCardTempCoreDataStorageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPvCardTempCoreDataStorageObject.h; path = CometChatPro.framework/Headers/XMPPvCardTempCoreDataStorageObject.h; sourceTree = "<group>"; };
+		A84B0A6B710C0A5A8232FC6980AB39D2 /* XMPPSystemInputActivityMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPSystemInputActivityMonitor.h; path = CometChatPro.framework/Headers/XMPPSystemInputActivityMonitor.h; sourceTree = "<group>"; };
+		A85660A6938776A1EA5DDBFD141B9D6A /* XMPPAutoPing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPAutoPing.h; path = CometChatPro.framework/Headers/XMPPAutoPing.h; sourceTree = "<group>"; };
+		A8FAE486292F783B9AEEFD5937C2F03D /* XMPPRosterPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRosterPrivate.h; path = CometChatPro.framework/Headers/XMPPRosterPrivate.h; sourceTree = "<group>"; };
+		A94B6036112EE226F5302AEB74DB432F /* XMPPvCardTempModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPvCardTempModule.h; path = CometChatPro.framework/Headers/XMPPvCardTempModule.h; sourceTree = "<group>"; };
+		ADA32A253E2EE541A495D9C2657D605B /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = CometChatPro.framework/Headers/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		ADB9A1ED5CD3ACB1CC9324047AF03D1B /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDWebImage.modulemap; sourceTree = "<group>"; };
+		AEA21A7C3C82FCBDF1DA5E0996C31FB7 /* Pods-LiveChatSwiftTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LiveChatSwiftTests-umbrella.h"; sourceTree = "<group>"; };
+		AEC52ED5EF328D9BE56CFC45573ECA7B /* Pods-LiveChatSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiveChatSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		AEE50DF17D1ED5B13AD27F8201BCDC47 /* XMPPRosterCoreDataStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRosterCoreDataStorage.h; path = CometChatPro.framework/Headers/XMPPRosterCoreDataStorage.h; sourceTree = "<group>"; };
+		AF3C9CD96DFF629C3879264923DD8C6E /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
+		AF7DA94A5486BB9C278B4FAE04CF385E /* XMPPIQ+JabberRPCResonse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPPIQ+JabberRPCResonse.h"; path = "CometChatPro.framework/Headers/XMPPIQ+JabberRPCResonse.h"; sourceTree = "<group>"; };
+		B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B346D06D281D4D3C396F9BBE3DBF0FFE /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		B3868804058A6EE2637CF19FE89301DA /* XMPPRosterMemoryStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRosterMemoryStorage.h; path = CometChatPro.framework/Headers/XMPPRosterMemoryStorage.h; sourceTree = "<group>"; };
+		B3A3B49BE47B55EDC50001F5B25DE828 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		B65ACB4542205E486528E736EA4ACB9C /* XMPPCapabilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPCapabilities.h; path = CometChatPro.framework/Headers/XMPPCapabilities.h; sourceTree = "<group>"; };
+		B7A7AE803E41F25E1CBE8852D2EC05C6 /* XMPPAnonymousAuthentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPAnonymousAuthentication.h; path = CometChatPro.framework/Headers/XMPPAnonymousAuthentication.h; sourceTree = "<group>"; };
+		B8403E04BFC14DA0299FE7CF12613B18 /* Pods-LiveChatSwiftUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiveChatSwiftUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA1A35FD425972471C0E2A473C7D61F7 /* SDWebImageGIFCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageGIFCoder.h; path = SDWebImage/SDWebImageGIFCoder.h; sourceTree = "<group>"; };
+		BA1CC2B66DC6303D16A81ABA0836C047 /* XMPPPubSub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPPubSub.h; path = CometChatPro.framework/Headers/XMPPPubSub.h; sourceTree = "<group>"; };
+		BB93F46BA68A6159BC1ADDD7DA082EAE /* XMPPRoomPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRoomPrivate.h; path = CometChatPro.framework/Headers/XMPPRoomPrivate.h; sourceTree = "<group>"; };
+		BE214E1356F4E6DD0C14D8E3F88A4DC7 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = CometChatPro.framework/Headers/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		BE8EE3DE9157CBC26A700757C12D42AE /* XMPPFileTransfer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPFileTransfer.h; path = CometChatPro.framework/Headers/XMPPFileTransfer.h; sourceTree = "<group>"; };
+		BEDAAFFC16EED94F50521C7712F1EF79 /* DDMultiFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDMultiFormatter.h; path = CometChatPro.framework/Headers/DDMultiFormatter.h; sourceTree = "<group>"; };
+		BF1807374C147E5C0DC3C373D0942AB7 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		BFA45C9EE2B4332D417178E5DACAF487 /* XMPPRoomMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRoomMessage.h; path = CometChatPro.framework/Headers/XMPPRoomMessage.h; sourceTree = "<group>"; };
+		C2650761D2058570EAEA90EF18FAD35B /* XMPPCapabilitiesCoreDataStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPCapabilitiesCoreDataStorage.h; path = CometChatPro.framework/Headers/XMPPCapabilitiesCoreDataStorage.h; sourceTree = "<group>"; };
+		C36E8641A7C3B027735906F83D893D48 /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = CometChatPro.framework/Headers/DDLog.h; sourceTree = "<group>"; };
+		C54AFA4DE3401A24AB6C7EA1E9B49CB7 /* XMPPStreamManagementMemoryStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPStreamManagementMemoryStorage.h; path = CometChatPro.framework/Headers/XMPPStreamManagementMemoryStorage.h; sourceTree = "<group>"; };
+		C6B0213226A4E6DC53D15AB6622C75CA /* Pods-LiveChatSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LiveChatSwift.modulemap"; sourceTree = "<group>"; };
+		C6B65E605614DC36FE019A2E4425CEEA /* DDXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXML.h; path = CometChatPro.framework/Headers/DDXML.h; sourceTree = "<group>"; };
+		CE7CC6564AF40F2ADAA50E696A9578A0 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = CometChatPro.framework/Headers/FMDatabasePool.h; sourceTree = "<group>"; };
+		CF9354C4D3D512D2DD8690FA900ACFDC /* XMPPIQ+JabberRPC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPPIQ+JabberRPC.h"; path = "CometChatPro.framework/Headers/XMPPIQ+JabberRPC.h"; sourceTree = "<group>"; };
+		CFF3A86F05C2F6D96F77060422E751FA /* XMPPResource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPResource.h; path = CometChatPro.framework/Headers/XMPPResource.h; sourceTree = "<group>"; };
+		D117DF79787D5A616ED988774C59BB08 /* DDLog+LOGV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDLog+LOGV.h"; path = "CometChatPro.framework/Headers/DDLog+LOGV.h"; sourceTree = "<group>"; };
+		D12859DCA5D5A645D705970528D6DA75 /* UIView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCache.m"; path = "SDWebImage/UIView+WebCache.m"; sourceTree = "<group>"; };
+		D17F2EF0B89BFBF5860E4516F94C7A54 /* NSButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSButton+WebCache.m"; path = "SDWebImage/NSButton+WebCache.m"; sourceTree = "<group>"; };
+		D1D96050B951FF8F6BC4322AB75428A5 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = CometChatPro.framework/Headers/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		D2BBA5F27C18A1308195754B17A8A79A /* XMPPCustomBinding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPCustomBinding.h; path = CometChatPro.framework/Headers/XMPPCustomBinding.h; sourceTree = "<group>"; };
+		D2C6C9F786F745588BA2C0A86F50B969 /* XMPPSoftwareVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPSoftwareVersion.h; path = CometChatPro.framework/Headers/XMPPSoftwareVersion.h; sourceTree = "<group>"; };
+		D2FD48C48109EBC29D221E616D9ACEA8 /* SDWebImageTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageTransition.m; path = SDWebImage/SDWebImageTransition.m; sourceTree = "<group>"; };
+		D30DC531D6CCC0061ECCB2C4C0CFF90D /* XMPPTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPTimer.h; path = CometChatPro.framework/Headers/XMPPTimer.h; sourceTree = "<group>"; };
+		D428F6806A32F0051C590282E55D9ABF /* SDWebImageImageIOCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageImageIOCoder.m; path = SDWebImage/SDWebImageImageIOCoder.m; sourceTree = "<group>"; };
+		D62F40D7882015EC8506E5A8BF69A2DD /* Pods-LiveChatSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LiveChatSwift-dummy.m"; sourceTree = "<group>"; };
+		D6A6940410C8BA7A50877F532F96189C /* DDXMLPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLPrivate.h; path = CometChatPro.framework/Headers/DDXMLPrivate.h; sourceTree = "<group>"; };
+		D6C37CB70096BBD3E77DE69523AA441B /* XMPPIQ+XEP_0060.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPPIQ+XEP_0060.h"; path = "CometChatPro.framework/Headers/XMPPIQ+XEP_0060.h"; sourceTree = "<group>"; };
+		D9D28A26F9BC97C12A851C83247F0D45 /* XMPPPing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPPing.h; path = CometChatPro.framework/Headers/XMPPPing.h; sourceTree = "<group>"; };
+		DA089972B71153902A69138CC6C817E8 /* XMPPIDTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPIDTracker.h; path = CometChatPro.framework/Headers/XMPPIDTracker.h; sourceTree = "<group>"; };
+		DA9C34CF2AC63960E2FE022A86AFA3FC /* XMPPJabberRPCModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPJabberRPCModule.h; path = CometChatPro.framework/Headers/XMPPJabberRPCModule.h; sourceTree = "<group>"; };
+		DB6AE841C91F7DD337C69AE46EA094C3 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
+		DBFD5F79C6CF8E92F27A55C438E225FA /* XMPPStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPStream.h; path = CometChatPro.framework/Headers/XMPPStream.h; sourceTree = "<group>"; };
+		DC12BDC1A70F3E319795BAA4BDCFFCF5 /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = CometChatPro.framework/Headers/DDASLLogger.h; sourceTree = "<group>"; };
+		DC4E11664307DB90E7DA55E054BCDFDD /* NSXMLElement+XMPP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSXMLElement+XMPP.h"; path = "CometChatPro.framework/Headers/NSXMLElement+XMPP.h"; sourceTree = "<group>"; };
+		DFB005388BEAA73D203C346D9E28DEB6 /* NSImage+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSImage+WebCache.h"; path = "SDWebImage/NSImage+WebCache.h"; sourceTree = "<group>"; };
+		E011C8C249822A0184D28F220681DD1F /* SDImageCacheConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheConfig.m; path = SDWebImage/SDImageCacheConfig.m; sourceTree = "<group>"; };
+		E02FEC84C90CB4A5D0F4A3C43D4474D2 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		E0749CD5828F198C3208386A054EE332 /* XMPPRoomOccupantHybridMemoryStorageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRoomOccupantHybridMemoryStorageObject.h; path = CometChatPro.framework/Headers/XMPPRoomOccupantHybridMemoryStorageObject.h; sourceTree = "<group>"; };
+		E0E3F07C5BE2EDDB2FDD41DABDB8BB17 /* XMPPvCardCoreDataStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPvCardCoreDataStorage.h; path = CometChatPro.framework/Headers/XMPPvCardCoreDataStorage.h; sourceTree = "<group>"; };
+		E1F0D8582B1863342685D6936E1A5817 /* SDWebImageCoderHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCoderHelper.h; path = SDWebImage/SDWebImageCoderHelper.h; sourceTree = "<group>"; };
+		E281923EFF6B2F189F3BE1507432656B /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = CometChatPro.framework/Headers/FMResultSet.h; sourceTree = "<group>"; };
+		E436444BE03841D7C0FF178924B2CC80 /* SDWebImageCodersManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCodersManager.m; path = SDWebImage/SDWebImageCodersManager.m; sourceTree = "<group>"; };
+		E44F081EA270CB36F8130A0B27292E7C /* XMPPMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPMessage.h; path = CometChatPro.framework/Headers/XMPPMessage.h; sourceTree = "<group>"; };
+		E44F988B6A45F304EFEBA65919042DAF /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
+		E61064C2E7B363865E45500874A3516E /* XMPPRoster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRoster.h; path = CometChatPro.framework/Headers/XMPPRoster.h; sourceTree = "<group>"; };
+		E6C892C025E8CFD01A82A9B7FCE845A5 /* XMPPPresence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPPresence.h; path = CometChatPro.framework/Headers/XMPPPresence.h; sourceTree = "<group>"; };
+		E7DEBABABB30150EBC9BD430573F689B /* XMPPUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPUser.h; path = CometChatPro.framework/Headers/XMPPUser.h; sourceTree = "<group>"; };
+		E89EA45D27BD5E7EF6CE74224EA25B67 /* Pods_LiveChatSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LiveChatSwift.framework; path = "Pods-LiveChatSwift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB725B9EE70FEE6F8BDD12BAE3CAD741 /* XMPPMessage+XEP0045.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPPMessage+XEP0045.h"; path = "CometChatPro.framework/Headers/XMPPMessage+XEP0045.h"; sourceTree = "<group>"; };
+		EC1D4090FE699D29E629D60BFB12D1F6 /* Pods-LiveChatSwiftTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiveChatSwiftTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EFB2C5718A063AD1C232C747D227B845 /* Pods-LiveChatSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiveChatSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F2DB4979CB4AC86183BE7D0F71183AB4 /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
+		F4B5B604DED7678DDD914EB2603F84EA /* XMPPDateTimeProfiles.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPDateTimeProfiles.h; path = CometChatPro.framework/Headers/XMPPDateTimeProfiles.h; sourceTree = "<group>"; };
+		F5BF9D5BC18D6F4E9718FDE97C1DCD8D /* Pods-LiveChatSwiftUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LiveChatSwiftUITests.modulemap"; sourceTree = "<group>"; };
+		F5EA8FDC3A5AD917CC30DE02C817E6A6 /* XMPPPresence+XEP_0172.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XMPPPresence+XEP_0172.h"; path = "CometChatPro.framework/Headers/XMPPPresence+XEP_0172.h"; sourceTree = "<group>"; };
+		F646D1915DBFDC944978E0033201514C /* stringprep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stringprep.h; path = CometChatPro.framework/Headers/stringprep.h; sourceTree = "<group>"; };
+		F6D2F7DDA37C681CD25B55A5DE647687 /* NSXMLElement+XEP_0059.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSXMLElement+XEP_0059.h"; path = "CometChatPro.framework/Headers/NSXMLElement+XEP_0059.h"; sourceTree = "<group>"; };
+		F857166A6C6EECD7AA696C8700F18C28 /* XMPPRoomHybridStorageProtected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRoomHybridStorageProtected.h; path = CometChatPro.framework/Headers/XMPPRoomHybridStorageProtected.h; sourceTree = "<group>"; };
+		F8F85D5F3C06E05CCD731906BC1FDA70 /* XMPPRoomOccupant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRoomOccupant.h; path = CometChatPro.framework/Headers/XMPPRoomOccupant.h; sourceTree = "<group>"; };
+		F9AB6B231433D242F2BA41B787ED81D9 /* CometChatPro.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CometChatPro.framework; sourceTree = "<group>"; };
+		F9E3194E343C1098E71467F1190C1AE3 /* XMPPCoreDataStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPCoreDataStorage.h; path = CometChatPro.framework/Headers/XMPPCoreDataStorage.h; sourceTree = "<group>"; };
+		FA057E097F743DC464810F5EC264E0F7 /* idn-int.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "idn-int.h"; path = "CometChatPro.framework/Headers/idn-int.h"; sourceTree = "<group>"; };
+		FAE0CF59A1324CA966A5FFA8A91BACE0 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = CometChatPro.framework/Headers/FMDatabase.h; sourceTree = "<group>"; };
+		FAFD06CB83639CB3963CE017C1DB3E42 /* XMPPConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPConstants.h; path = CometChatPro.framework/Headers/XMPPConstants.h; sourceTree = "<group>"; };
+		FB3A83BCE9AC2D6C3FF137A7DC9D0EAD /* DDXMLDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLDocument.h; path = CometChatPro.framework/Headers/DDXMLDocument.h; sourceTree = "<group>"; };
+		FC2E3C8B8774A51348D3C9FD2526C02F /* NSXMLElement+XEP_0335.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSXMLElement+XEP_0335.h"; path = "CometChatPro.framework/Headers/NSXMLElement+XEP_0335.h"; sourceTree = "<group>"; };
+		FCE74DBDB403642408973F342759B3C3 /* XMPPRoomOccupantCoreDataStorageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPPRoomOccupantCoreDataStorageObject.h; path = CometChatPro.framework/Headers/XMPPRoomOccupantCoreDataStorageObject.h; sourceTree = "<group>"; };
+		FE27AF506C2F854CF6D3BB74375721D4 /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		478F42984AC1820646B29114125B775A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90DD0A8D8249543CEEF4BEDABFCA2C23 /* Foundation.framework in Frameworks */,
+				2A008986EE836AA788E10CE3B14F0777 /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97E2A1B900D3E5FB16E5B0C4E6BA19B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE86E2F8F58ABD10A055BC14011BF15C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE7F27790861FE25076DAAA9032B5A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FE6E6B734E548982C2BDCAB1E4FE6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E4BFCFC9B776A7C1AFB44933765FDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B335662A6C72B497AE727C798ADEF340 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DB4906FCF24067D3E7C31B352C9E184 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB457174D8B398DCD8F4229255B6754A /* Pods-LiveChatSwift */,
+				64F965B3BDF56050B4663F8504BECD27 /* Pods-LiveChatSwiftTests */,
+				F49969A735E5BA1FA2A6E43A2472379B /* Pods-LiveChatSwiftUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8523EEFFCB852257853195B0820B4890 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27B0679A84A210B4755ADE5749B169AA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADB9A1ED5CD3ACB1CC9324047AF03D1B /* SDWebImage.modulemap */,
+				E44F988B6A45F304EFEBA65919042DAF /* SDWebImage.xcconfig */,
+				01918FC6DE4F50965B4944B51B1D5DB4 /* SDWebImage-dummy.m */,
+				1BFB98D23CDB7E5A4C0DA3D61B9763BF /* SDWebImage-Info.plist */,
+				13D191D81A1DB0605FD2B81DDD35A544 /* SDWebImage-prefix.pch */,
+				79540C1DF8F172F8383276673FE3C4D9 /* SDWebImage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDWebImage";
+			sourceTree = "<group>";
+		};
+		54408210C3F87A064384CE753DE81132 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				11E79BE620EB69A685F108C251B6FEC2 /* NSButton+WebCache.h */,
+				D17F2EF0B89BFBF5860E4516F94C7A54 /* NSButton+WebCache.m */,
+				BF1807374C147E5C0DC3C373D0942AB7 /* NSData+ImageContentType.h */,
+				5C5E54B2F358963005877BE06A50DA7C /* NSData+ImageContentType.m */,
+				DFB005388BEAA73D203C346D9E28DEB6 /* NSImage+WebCache.h */,
+				48FFE07C87B3B14063F95D822EFA459A /* NSImage+WebCache.m */,
+				A339CC15603757A61F7E0592F081AE41 /* SDAnimatedImageRep.h */,
+				1FC1155C056DA4CBE557CA46A85420DF /* SDAnimatedImageRep.m */,
+				611205DFC82AC6048FE38FDB78025955 /* SDImageCache.h */,
+				99B32C87A1888A022F25D9902F38A194 /* SDImageCache.m */,
+				39648A29726B6C2E2DD7D2BD122E5FC6 /* SDImageCacheConfig.h */,
+				E011C8C249822A0184D28F220681DD1F /* SDImageCacheConfig.m */,
+				92E60EC7451A8E1458411C244ED7C04B /* SDWebImageCoder.h */,
+				7E8720E86B37EDC86B59DBB848D235D9 /* SDWebImageCoder.m */,
+				E1F0D8582B1863342685D6936E1A5817 /* SDWebImageCoderHelper.h */,
+				2D7708DC78AB33A9959605F3EA9D1729 /* SDWebImageCoderHelper.m */,
+				3A874A620A17FB030B1171E3FB491B55 /* SDWebImageCodersManager.h */,
+				E436444BE03841D7C0FF178924B2CC80 /* SDWebImageCodersManager.m */,
+				1C71FD7C7DB099BC82B583391D4570C9 /* SDWebImageCompat.h */,
+				7377068A340371AFCFC1C66BEAC278D6 /* SDWebImageCompat.m */,
+				92FCC258036802155E8559A9825F4C6D /* SDWebImageDownloader.h */,
+				DB6AE841C91F7DD337C69AE46EA094C3 /* SDWebImageDownloader.m */,
+				270B4A9E150C704953CBBD11665843AC /* SDWebImageDownloaderOperation.h */,
+				1F2F9D84A2E266B00BA5903920E6E9F9 /* SDWebImageDownloaderOperation.m */,
+				81EB8FA41960225FEB01792EFA580B72 /* SDWebImageFrame.h */,
+				85AE38493D71499E5D789CD93FA1AC4A /* SDWebImageFrame.m */,
+				BA1A35FD425972471C0E2A473C7D61F7 /* SDWebImageGIFCoder.h */,
+				809ED73FB22AD4C5E7F72FF8A0A53847 /* SDWebImageGIFCoder.m */,
+				387821EABB015A75AAB25F7F610714F1 /* SDWebImageImageIOCoder.h */,
+				D428F6806A32F0051C590282E55D9ABF /* SDWebImageImageIOCoder.m */,
+				1CE7FE6812B7D441D9FB2B2EBDA96ACC /* SDWebImageManager.h */,
+				FE27AF506C2F854CF6D3BB74375721D4 /* SDWebImageManager.m */,
+				0F2C6934EBCCD4800A9135D0B7C2BB78 /* SDWebImageOperation.h */,
+				518808188A25B2EA1A99B9E8E9718A6F /* SDWebImagePrefetcher.h */,
+				530282649C9C06A360B12F2A64695B93 /* SDWebImagePrefetcher.m */,
+				9082BB819C7D2F588ACCB03FAEAB85ED /* SDWebImageTransition.h */,
+				D2FD48C48109EBC29D221E616D9ACEA8 /* SDWebImageTransition.m */,
+				1CF89BC25C9C0A2F50EA388A00660F70 /* UIButton+WebCache.h */,
+				F2DB4979CB4AC86183BE7D0F71183AB4 /* UIButton+WebCache.m */,
+				873D058759C78EF9B60382C490ED6E66 /* UIImage+ForceDecode.h */,
+				712481F3F44B51A93CF78399EB722875 /* UIImage+ForceDecode.m */,
+				18AF08145515EA50FD008C5F8C06F6A5 /* UIImage+GIF.h */,
+				AF3C9CD96DFF629C3879264923DD8C6E /* UIImage+GIF.m */,
+				858C265CC2457C961A96526A6EF35EFF /* UIImage+MemoryCacheCost.h */,
+				1B1FAD090C8EF76AE12F8FAF24E77FFE /* UIImage+MemoryCacheCost.m */,
+				0F78C3BF1B9D33D9FAF7D8AF2693D370 /* UIImage+MultiFormat.h */,
+				E02FEC84C90CB4A5D0F4A3C43D4474D2 /* UIImage+MultiFormat.m */,
+				363874BE83DCEC135E8BC0087460D21D /* UIImageView+HighlightedWebCache.h */,
+				01BED47146EDED2F2AE17F16A4365EAC /* UIImageView+HighlightedWebCache.m */,
+				B3A3B49BE47B55EDC50001F5B25DE828 /* UIImageView+WebCache.h */,
+				66629EF378A59119834A2298A5583A96 /* UIImageView+WebCache.m */,
+				37E10808700B742F620CE0C0DAE58BAC /* UIView+WebCache.h */,
+				D12859DCA5D5A645D705970528D6DA75 /* UIView+WebCache.m */,
+				2761369363053615751346987E8A8663 /* UIView+WebCacheOperation.h */,
+				201B8077A66334A29F0C26EB5E4457FE /* UIView+WebCacheOperation.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		64F965B3BDF56050B4663F8504BECD27 /* Pods-LiveChatSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B7E5F03E47B6D2934A9CCD120B8A899 /* Pods-LiveChatSwiftTests.modulemap */,
+				4CBD70A7D7205716E7963E9038735314 /* Pods-LiveChatSwiftTests-acknowledgements.markdown */,
+				EC1D4090FE699D29E629D60BFB12D1F6 /* Pods-LiveChatSwiftTests-acknowledgements.plist */,
+				4E3CB171A8145C0870477234A4C0E25D /* Pods-LiveChatSwiftTests-dummy.m */,
+				11291C25300038D85319E539C8E25C3A /* Pods-LiveChatSwiftTests-Info.plist */,
+				AEA21A7C3C82FCBDF1DA5E0996C31FB7 /* Pods-LiveChatSwiftTests-umbrella.h */,
+				58AF83E127224C0C8FA754D256A9114A /* Pods-LiveChatSwiftTests.debug.xcconfig */,
+				AEC52ED5EF328D9BE56CFC45573ECA7B /* Pods-LiveChatSwiftTests.release.xcconfig */,
+			);
+			name = "Pods-LiveChatSwiftTests";
+			path = "Target Support Files/Pods-LiveChatSwiftTests";
+			sourceTree = "<group>";
+		};
+		65BF8AE685F32EF480B0A34C5DE28A42 /* CometChatPro */ = {
+			isa = PBXGroup;
+			children = (
+				7C1D84D37EF130489AC61612C70334A4 /* CometChatPro.h */,
+				52BC0A623512A664CB887E28876102BB /* CometChatPro-Swift.h */,
+				1F7918EB01B2555DB7EDC26AD260436A /* DDAbstractDatabaseLogger.h */,
+				DC12BDC1A70F3E319795BAA4BDCFFCF5 /* DDASLLogger.h */,
+				8639A2F8564BB1653D37B6A7F355DE5E /* DDContextFilterLogFormatter.h */,
+				99E5A3DB112EC871341F24FDDAA74117 /* DDDispatchQueueLogFormatter.h */,
+				63CD3AE3FA1CE8427BFFF418AD8AAAE8 /* DDFileLogger.h */,
+				965F70222BFCCE662B53A0463749802F /* DDList.h */,
+				C36E8641A7C3B027735906F83D893D48 /* DDLog.h */,
+				D117DF79787D5A616ED988774C59BB08 /* DDLog+LOGV.h */,
+				BEDAAFFC16EED94F50521C7712F1EF79 /* DDMultiFormatter.h */,
+				3EC443FAFAE7FD8C8EC7864DED6C4AC8 /* DDTTYLogger.h */,
+				C6B65E605614DC36FE019A2E4425CEEA /* DDXML.h */,
+				FB3A83BCE9AC2D6C3FF137A7DC9D0EAD /* DDXMLDocument.h */,
+				8D6D55B4D20F94E9D2E8F2CEFBB94B66 /* DDXMLElement.h */,
+				88CC00D14C620876A2154985AD5C032A /* DDXMLElementAdditions.h */,
+				6C3DFDF25DEDD1FCBC85A8B2A2EC9971 /* DDXMLNode.h */,
+				D6A6940410C8BA7A50877F532F96189C /* DDXMLPrivate.h */,
+				FAE0CF59A1324CA966A5FFA8A91BACE0 /* FMDatabase.h */,
+				30B51B6A76E6E819BAC16CF495908F09 /* FMDatabaseAdditions.h */,
+				CE7CC6564AF40F2ADAA50E696A9578A0 /* FMDatabasePool.h */,
+				BE214E1356F4E6DD0C14D8E3F88A4DC7 /* FMDatabaseQueue.h */,
+				5B7455EE6F1D71016EB997FB4DFC7DB5 /* FMDB.h */,
+				E281923EFF6B2F189F3BE1507432656B /* FMResultSet.h */,
+				ADA32A253E2EE541A495D9C2657D605B /* GCDAsyncSocket.h */,
+				D1D96050B951FF8F6BC4322AB75428A5 /* GCDAsyncUdpSocket.h */,
+				4EAA9B01DE765FC51592BD564B85A046 /* GCDMulticastDelegate.h */,
+				FA057E097F743DC464810F5EC264E0F7 /* idn-int.h */,
+				51C92E2FD84CE2E98E4AF34BB2881A4B /* KissXML.h */,
+				1D045AEE2257501CA6344E665F641E70 /* NSData+XMPP.h */,
+				24655442D1B0E14588F27E23C66C7B88 /* NSDate+XMPPDateTimeProfiles.h */,
+				5D3D37624FFA5B01F5267E2F0A83DB91 /* NSNumber+XMPP.h */,
+				1B9894B95DCBA48A87B89FBEBC90BA73 /* NSString+DDXML.h */,
+				5D344BE8FFDA7C37303212251738513E /* NSString+XEP_0106.h */,
+				F6D2F7DDA37C681CD25B55A5DE647687 /* NSXMLElement+XEP_0059.h */,
+				08D8E2F59C90FA76953A99CFBCB622E3 /* NSXMLElement+XEP_0203.h */,
+				1642F94E2AF3DFE34EF523856B147F0E /* NSXMLElement+XEP_0297.h */,
+				FC2E3C8B8774A51348D3C9FD2526C02F /* NSXMLElement+XEP_0335.h */,
+				DC4E11664307DB90E7DA55E054BCDFDD /* NSXMLElement+XMPP.h */,
+				50447633D6003976F566BF45B2E72420 /* RFImageToDataTransformer.h */,
+				F646D1915DBFDC944978E0033201514C /* stringprep.h */,
+				82310EE249B44EDD916A5B9F5D32B5F1 /* TURNSocket.h */,
+				5471955DB7536E2D6F4F5E31DCF3CA3D /* XEP_0223.h */,
+				59DF7506B52E2A50B25DA8685C37B676 /* XMPP.h */,
+				B7A7AE803E41F25E1CBE8852D2EC05C6 /* XMPPAnonymousAuthentication.h */,
+				1F7C02E21543FF155308BC2830416B91 /* XMPPAttentionModule.h */,
+				A85660A6938776A1EA5DDBFD141B9D6A /* XMPPAutoPing.h */,
+				A49688B01218CEAD986B377FCFDA199E /* XMPPAutoTime.h */,
+				821D1AA661D1EF56AE9DA55C2FCB18E9 /* XMPPBandwidthMonitor.h */,
+				7C5EED334ABFD68E88155B70AD21126E /* XMPPBlocking.h */,
+				B65ACB4542205E486528E736EA4ACB9C /* XMPPCapabilities.h */,
+				C2650761D2058570EAEA90EF18FAD35B /* XMPPCapabilitiesCoreDataStorage.h */,
+				83E605525F4BD559C693CF53AF500494 /* XMPPCapsCoreDataStorageObject.h */,
+				015C0B8C52C20C50A79E057BA995607A /* XMPPCapsResourceCoreDataStorageObject.h */,
+				FAFD06CB83639CB3963CE017C1DB3E42 /* XMPPConstants.h */,
+				F9E3194E343C1098E71467F1190C1AE3 /* XMPPCoreDataStorage.h */,
+				25D6AE9DBEAD152F36D18AA8834AAA6E /* XMPPCoreDataStorageProtected.h */,
+				D2BBA5F27C18A1308195754B17A8A79A /* XMPPCustomBinding.h */,
+				F4B5B604DED7678DDD914EB2603F84EA /* XMPPDateTimeProfiles.h */,
+				23CB8E374C7C0E342C57CCD77D846C08 /* XMPPDeprecatedDigestAuthentication.h */,
+				14B07B2C7C3EB39C65CC3BA509252FFF /* XMPPDeprecatedPlainAuthentication.h */,
+				911C7FF2B141A1DC9B60E683FB29187F /* XMPPDigestMD5Authentication.h */,
+				5BA14BDFA2317CEB467EBD40CDB3057E /* XMPPElement.h */,
+				BE8EE3DE9157CBC26A700757C12D42AE /* XMPPFileTransfer.h */,
+				82D883716AF8D2E7752FE694E590A635 /* XMPPFramework.h */,
+				1F7EC219BC7C1C4962EAB2B3274A538C /* XMPPGoogleSharedStatus.h */,
+				6B7101A8535ED1C84DA335CF93C3F8D1 /* XMPPGroupCoreDataStorageObject.h */,
+				DA089972B71153902A69138CC6C817E8 /* XMPPIDTracker.h */,
+				481C5CF6FD3D4FF8E585C5FDD5B5B936 /* XMPPIncomingFileTransfer.h */,
+				3A845098DB2F44FF7950CC51F6E7C8F5 /* XMPPInternal.h */,
+				3B9970DB275A47898394EAC3EC1C895F /* XMPPIQ.h */,
+				CF9354C4D3D512D2DD8690FA900ACFDC /* XMPPIQ+JabberRPC.h */,
+				AF7DA94A5486BB9C278B4FAE04CF385E /* XMPPIQ+JabberRPCResonse.h */,
+				9E97CA9FDCF36A73163942C5378F6A2D /* XMPPIQ+LastActivity.h */,
+				D6C37CB70096BBD3E77DE69523AA441B /* XMPPIQ+XEP_0060.h */,
+				28C455A09869828C5FF9F11BE653EFF4 /* XMPPIQ+XEP_0066.h */,
+				DA9C34CF2AC63960E2FE022A86AFA3FC /* XMPPJabberRPCModule.h */,
+				90AC6E45BF3A2A26BEEA282855BA29B1 /* XMPPJID.h */,
+				62EE635FD1F95B2FF94F01F824B81B1E /* XMPPLastActivity.h */,
+				8AEF0D4C121F7BFBC9C33FD167421C9B /* XMPPLogging.h */,
+				E44F081EA270CB36F8130A0B27292E7C /* XMPPMessage.h */,
+				EB725B9EE70FEE6F8BDD12BAE3CAD741 /* XMPPMessage+XEP0045.h */,
+				7105E88FF284B6CE8EEB76D1626EA5F7 /* XMPPMessage+XEP_0066.h */,
+				7EF4FCF362BA07D8907F494C623338A0 /* XMPPMessage+XEP_0085.h */,
+				6E24B32394C34D79B1FBA0E3294D2651 /* XMPPMessage+XEP_0172.h */,
+				3B55DB5C820B25C454847AD37D140802 /* XMPPMessage+XEP_0184.h */,
+				1AF287223E69D91E70AD259CA64C66EB /* XMPPMessage+XEP_0224.h */,
+				652F429C7920DB60299426303F7D7043 /* XMPPMessage+XEP_0280.h */,
+				A538CF3B3339EBDB52CF1068300C557C /* XMPPMessage+XEP_0308.h */,
+				0D0B55BC90343F911BB0FF8A1847171A /* XMPPMessage+XEP_0333.h */,
+				0D35CC07EBB6EAD0A4A1D290E6D9FF96 /* XMPPMessageArchiving.h */,
+				3F1334525CBF08584C775FACAB81C45C /* XMPPMessageArchiving_Contact_CoreDataObject.h */,
+				637E9018CB9083A71C2E2296C1AEAA58 /* XMPPMessageArchiving_Message_CoreDataObject.h */,
+				A0901A66D34F3E6535CF1FA9B9DD32F5 /* XMPPMessageArchivingCoreDataStorage.h */,
+				089706FB6B09EA56DD41C7403910810C /* XMPPMessageCarbons.h */,
+				7E027135FB94872EF594FFE995CB4BF6 /* XMPPMessageDeliveryReceipts.h */,
+				2965E1B7F95B81B30D3E76A94018780D /* XMPPModule.h */,
+				76A3F0DBFEBBA6DC0A8E9F216B255158 /* XMPPMUC.h */,
+				18274C7AE4C5438B3F44FC7BFCAAF466 /* XMPPOutgoingFileTransfer.h */,
+				399E5C12E125424969C102CD1D72E1B8 /* XMPPParser.h */,
+				D9D28A26F9BC97C12A851C83247F0D45 /* XMPPPing.h */,
+				27D4F6BA9BD70152B41CF6A9613ED8D4 /* XMPPPlainAuthentication.h */,
+				E6C892C025E8CFD01A82A9B7FCE845A5 /* XMPPPresence.h */,
+				F5EA8FDC3A5AD917CC30DE02C817E6A6 /* XMPPPresence+XEP_0172.h */,
+				7F5DCE5639CB871F7757072FCF413D23 /* XMPPPrivacy.h */,
+				018B869440FF0019A1690ADCD05DC86E /* XMPPProcessOne.h */,
+				BA1CC2B66DC6303D16A81ABA0836C047 /* XMPPPubSub.h */,
+				917DC887F44BE8BB42D2124B199C013F /* XMPPReconnect.h */,
+				99C57EB3A12DD087D5E6D5A8A9621660 /* XMPPRegistration.h */,
+				CFF3A86F05C2F6D96F77060422E751FA /* XMPPResource.h */,
+				8E822F227403EDDEEFA869E57CF70845 /* XMPPResourceCoreDataStorageObject.h */,
+				76F527453208CB7DEEBD99A5770E46D9 /* XMPPResourceMemoryStorageObject.h */,
+				25057C1DA0C8BC001AD1D13EC1663F29 /* XMPPResultSet.h */,
+				8732E32D73161D5528C609D3C818AFA9 /* XMPPRoom.h */,
+				1714D3DD303F0264FB58AB38B34305E9 /* XMPPRoomCoreDataStorage.h */,
+				54D37FB8512E741F1FC7A72703759A15 /* XMPPRoomHybridStorage.h */,
+				F857166A6C6EECD7AA696C8700F18C28 /* XMPPRoomHybridStorageProtected.h */,
+				8340F4A107F2620BA2C9FEE7C77720CB /* XMPPRoomMemoryStorage.h */,
+				BFA45C9EE2B4332D417178E5DACAF487 /* XMPPRoomMessage.h */,
+				90590AA29F1E6D471964BC0E02292BE3 /* XMPPRoomMessageCoreDataStorageObject.h */,
+				771EBCE9581D5AAB51965239D0CBDD40 /* XMPPRoomMessageHybridCoreDataStorageObject.h */,
+				7E913AB6729B880EDF1EAA8DBF766418 /* XMPPRoomMessageMemoryStorageObject.h */,
+				F8F85D5F3C06E05CCD731906BC1FDA70 /* XMPPRoomOccupant.h */,
+				FCE74DBDB403642408973F342759B3C3 /* XMPPRoomOccupantCoreDataStorageObject.h */,
+				E0749CD5828F198C3208386A054EE332 /* XMPPRoomOccupantHybridMemoryStorageObject.h */,
+				980598CE9DD6F30C456F91E481D148EE /* XMPPRoomOccupantMemoryStorageObject.h */,
+				BB93F46BA68A6159BC1ADDD7DA082EAE /* XMPPRoomPrivate.h */,
+				E61064C2E7B363865E45500874A3516E /* XMPPRoster.h */,
+				AEE50DF17D1ED5B13AD27F8201BCDC47 /* XMPPRosterCoreDataStorage.h */,
+				B3868804058A6EE2637CF19FE89301DA /* XMPPRosterMemoryStorage.h */,
+				0D9414BA2E2BE8CDC2B80A95928BC4B1 /* XMPPRosterMemoryStoragePrivate.h */,
+				A8FAE486292F783B9AEEFD5937C2F03D /* XMPPRosterPrivate.h */,
+				40A291C39DEE2DD198F2198C948A37AB /* XMPPSASLAuthentication.h */,
+				16CB3545E28668780DB611C4CA8C85E4 /* XMPPSCRAMSHA1Authentication.h */,
+				D2C6C9F786F745588BA2C0A86F50B969 /* XMPPSoftwareVersion.h */,
+				525AC535F0D0FD77A8A8C5344884DAEE /* XMPPSRVResolver.h */,
+				DBFD5F79C6CF8E92F27A55C438E225FA /* XMPPStream.h */,
+				1935F38650570EF03D207900B6EF8FD0 /* XMPPStreamManagement.h */,
+				C54AFA4DE3401A24AB6C7EA1E9B49CB7 /* XMPPStreamManagementMemoryStorage.h */,
+				8786E553499F81367EB5B9DAB1734D8B /* XMPPStreamManagementStanzas.h */,
+				7AA95F98C79222D8C0FBAB0ACA7FE6FB /* XMPPStringPrep.h */,
+				A84B0A6B710C0A5A8232FC6980AB39D2 /* XMPPSystemInputActivityMonitor.h */,
+				5EE8462512D9D98821F4A2C71A4C184A /* XMPPTime.h */,
+				D30DC531D6CCC0061ECCB2C4C0CFF90D /* XMPPTimer.h */,
+				358A314A5DA2EEE6596D7A79E2863B51 /* XMPPTransports.h */,
+				70C36FDFB618F889876075176AB12F97 /* XMPPURI.h */,
+				E7DEBABABB30150EBC9BD430573F689B /* XMPPUser.h */,
+				6C1217878A017FDFBB507A6192CC2804 /* XMPPUserCoreDataStorageObject.h */,
+				8805F34887CD4132F450D29E2C643806 /* XMPPUserMemoryStorageObject.h */,
+				3251069D58C84161FAD01DD105DBAC96 /* XMPPvCardAvatarCoreDataStorageObject.h */,
+				36D7B376D240F9B0E26CD14BF086569A /* XMPPvCardAvatarModule.h */,
+				E0E3F07C5BE2EDDB2FDD41DABDB8BB17 /* XMPPvCardCoreDataStorage.h */,
+				2949183ADF2506E26C7648FE557286FC /* XMPPvCardCoreDataStorageObject.h */,
+				A05D19FED652E4A2CC2054BD248E2311 /* XMPPvCardTemp.h */,
+				15EFEA7A3F8622C78D0FEF5B71EBA05B /* XMPPvCardTempAdr.h */,
+				52F7F194F61E10639C36B24D30D2599B /* XMPPvCardTempAdrTypes.h */,
+				8F040781959ED87BE6614085576A5A1C /* XMPPvCardTempBase.h */,
+				A5F5E7AF760B2A59B30999A3FD9EF7E7 /* XMPPvCardTempCoreDataStorageObject.h */,
+				004A6465307C2686AC4408646D2C9F9B /* XMPPvCardTempEmail.h */,
+				800B97FE24285D5F7136472DEF86C25B /* XMPPvCardTempLabel.h */,
+				A94B6036112EE226F5302AEB74DB432F /* XMPPvCardTempModule.h */,
+				7B96147DE5278B4BD18655FF4DE6AAB6 /* XMPPvCardTempTel.h */,
+				63A5F563AC061E739E612D56600559BA /* XMPPXFacebookPlatformAuthentication.h */,
+				9B984A7AD7C52047455939CA180C71B0 /* XMPPXOAuth2Google.h */,
+				A732B5C4756A54348989F4F14CDBE33D /* Frameworks */,
+				79F978F29B6BA6533D5E38EFB45C9408 /* Support Files */,
+			);
+			name = CometChatPro;
+			path = CometChatPro;
+			sourceTree = "<group>";
+		};
+		79F978F29B6BA6533D5E38EFB45C9408 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				79EE7FF5638B6EF72322BDD0BE843555 /* CometChatPro.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CometChatPro";
+			sourceTree = "<group>";
+		};
+		7F879685BC3B46B427946EA826E5E9E6 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				54408210C3F87A064384CE753DE81132 /* Core */,
+				27B0679A84A210B4755ADE5749B169AA /* Support Files */,
+			);
+			name = SDWebImage;
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		8523EEFFCB852257853195B0820B4890 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7458A52B903C39C9CFC9B6A9BDCC5B2B /* Foundation.framework */,
+				B346D06D281D4D3C396F9BBE3DBF0FFE /* ImageIO.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9F151B076EFE2CB93C5D31DF47A3E555 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65BF8AE685F32EF480B0A34C5DE28A42 /* CometChatPro */,
+				7F879685BC3B46B427946EA826E5E9E6 /* SDWebImage */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A732B5C4756A54348989F4F14CDBE33D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9AB6B231433D242F2BA41B787ED81D9 /* CometChatPro.framework */,
+				59245EF7F3F75140F34A5A6F911031E4 /* JitsiMeet.framework */,
+				003D42C5F63E41C95BF6E85C20C9F45A /* WebRTC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				9F151B076EFE2CB93C5D31DF47A3E555 /* Pods */,
+				EBD0DAC6C164AE1AEE38C5D3B4A5014A /* Products */,
+				0DB4906FCF24067D3E7C31B352C9E184 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EB457174D8B398DCD8F4229255B6754A /* Pods-LiveChatSwift */ = {
+			isa = PBXGroup;
+			children = (
+				C6B0213226A4E6DC53D15AB6622C75CA /* Pods-LiveChatSwift.modulemap */,
+				0E1F7CE06676758053252241B3EEC9B1 /* Pods-LiveChatSwift-acknowledgements.markdown */,
+				051B0D4589BA3A446B498090D2A6C126 /* Pods-LiveChatSwift-acknowledgements.plist */,
+				D62F40D7882015EC8506E5A8BF69A2DD /* Pods-LiveChatSwift-dummy.m */,
+				41DD3B7350277E939CFD0C7BEBB09C6E /* Pods-LiveChatSwift-frameworks.sh */,
+				3546B77E305C7D8DE7A107B38C566ED6 /* Pods-LiveChatSwift-Info.plist */,
+				3A094778E4F8029E73DD13661FAE0833 /* Pods-LiveChatSwift-umbrella.h */,
+				1C7351AF9B8EBE4B41AA6A619D842FB3 /* Pods-LiveChatSwift.debug.xcconfig */,
+				62621412B40B9B6D39364F69CCED20E2 /* Pods-LiveChatSwift.release.xcconfig */,
+			);
+			name = "Pods-LiveChatSwift";
+			path = "Target Support Files/Pods-LiveChatSwift";
+			sourceTree = "<group>";
+		};
+		EBD0DAC6C164AE1AEE38C5D3B4A5014A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E89EA45D27BD5E7EF6CE74224EA25B67 /* Pods_LiveChatSwift.framework */,
+				93038561C2BBF651811073E80901DDF1 /* Pods_LiveChatSwiftTests.framework */,
+				8D2B685D66645D75E15E089E810A1F3C /* Pods_LiveChatSwiftUITests.framework */,
+				B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F49969A735E5BA1FA2A6E43A2472379B /* Pods-LiveChatSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5BF9D5BC18D6F4E9718FDE97C1DCD8D /* Pods-LiveChatSwiftUITests.modulemap */,
+				4552E8CD5FFF787623B7EE90713E2C7C /* Pods-LiveChatSwiftUITests-acknowledgements.markdown */,
+				B8403E04BFC14DA0299FE7CF12613B18 /* Pods-LiveChatSwiftUITests-acknowledgements.plist */,
+				997A3394E8DBF22B3B836943140D860E /* Pods-LiveChatSwiftUITests-dummy.m */,
+				20AEB0245CA3AE00B34577D9C0B1CD2C /* Pods-LiveChatSwiftUITests-Info.plist */,
+				16A08A8889C829870AC96C1D44D53361 /* Pods-LiveChatSwiftUITests-umbrella.h */,
+				11BF224DD12258D9EA4B97B9430EA887 /* Pods-LiveChatSwiftUITests.debug.xcconfig */,
+				EFB2C5718A063AD1C232C747D227B845 /* Pods-LiveChatSwiftUITests.release.xcconfig */,
+			);
+			name = "Pods-LiveChatSwiftUITests";
+			path = "Target Support Files/Pods-LiveChatSwiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C63114350266296CE2A288E177B8E25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9898FF57F455C0A1869D272BB9A8ECF6 /* Pods-LiveChatSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BDAFDFCA00750958E0430BED620E49A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CAA189266B23BA4E5F1E358A2D1832 /* Pods-LiveChatSwiftTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3EFFA6F4343F29CEF664B863BECA29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CE3F39AF0199DF9597FE48A7B85D9F /* Pods-LiveChatSwiftUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AABD6F201988C193442D27E208F6A88B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9646B881026786DFF3EA0BE6BA090FB7 /* NSButton+WebCache.h in Headers */,
+				DB3F8FE663407E5B48593AFD6E48E766 /* NSData+ImageContentType.h in Headers */,
+				15DCE4F0F51CA8743356F30D3CC5B1EF /* NSImage+WebCache.h in Headers */,
+				E992F4363E194572061A208A95AAE26B /* SDAnimatedImageRep.h in Headers */,
+				BF8819260EC0FF8AEA312D3952699A75 /* SDImageCache.h in Headers */,
+				63EF4181585120C90759211B6AC87D90 /* SDImageCacheConfig.h in Headers */,
+				4FE8F4421F089A03E865074C8248958A /* SDWebImage-umbrella.h in Headers */,
+				662A17761126CF04BA41671D523BA872 /* SDWebImageCoder.h in Headers */,
+				5FDC312B163F42757D25F518DABBF57D /* SDWebImageCoderHelper.h in Headers */,
+				7E0D9AA6D80CBC8DE7692D733C720474 /* SDWebImageCodersManager.h in Headers */,
+				4AFFE18F35027F6C4AFAB26CD249BDAE /* SDWebImageCompat.h in Headers */,
+				95433059B9D1CEE3B9CC2A0658A536B7 /* SDWebImageDownloader.h in Headers */,
+				3D1C0E83EA2E4B4EFDEFF4DF24CBF126 /* SDWebImageDownloaderOperation.h in Headers */,
+				B847A80DD0242C3A4F0FE6B72A70AE54 /* SDWebImageFrame.h in Headers */,
+				BA9C02ACAA6371CE9B1297D019AABE00 /* SDWebImageGIFCoder.h in Headers */,
+				66D3B8F67A453804F2B551659F21E652 /* SDWebImageImageIOCoder.h in Headers */,
+				5E31EA4F41D3403F7383A51D927C3B15 /* SDWebImageManager.h in Headers */,
+				082252D45616AF575CF4E2E03D50A3F2 /* SDWebImageOperation.h in Headers */,
+				E283D42B8601D09C23379A371E5EE42A /* SDWebImagePrefetcher.h in Headers */,
+				CFBF651BD6065477AB336E4A2A61F623 /* SDWebImageTransition.h in Headers */,
+				29F6E6F489A73770776BDE47DFCD7E04 /* UIButton+WebCache.h in Headers */,
+				4EF8AF1431BD10AB67A24FC3CEAAC3A4 /* UIImage+ForceDecode.h in Headers */,
+				A6B8E64C68F26C6BD5F43BBC6F4F8FBC /* UIImage+GIF.h in Headers */,
+				DA651534E4CE6211325155C9DB571C7D /* UIImage+MemoryCacheCost.h in Headers */,
+				6B84632EAD6D461F4E7F19706A1ECE26 /* UIImage+MultiFormat.h in Headers */,
+				9FDC7A4A1AB7F8D429B8602E19A624EB /* UIImageView+HighlightedWebCache.h in Headers */,
+				495FC5F0ADC935D14B087E2286247975 /* UIImageView+WebCache.h in Headers */,
+				F9B16D4445469C1E02982016AAB7A797 /* UIView+WebCache.h in Headers */,
+				AEDAA7E9B6708CEC423287CAE9FE83E5 /* UIView+WebCacheOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2684B7AA3087B555930ADAE0DF048EC8 /* Pods-LiveChatSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8866C3D875477A462E6A4090C52D3221 /* Build configuration list for PBXNativeTarget "Pods-LiveChatSwift" */;
+			buildPhases = (
+				0C63114350266296CE2A288E177B8E25 /* Headers */,
+				ADDEF6D7528D8F0E19AEBE39008048DD /* Sources */,
+				CCE7F27790861FE25076DAAA9032B5A8 /* Frameworks */,
+				34A9403E2B3E9CCCBDADC67D5422204A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFE8D906EF437B5198B1DEA3D608E12C /* PBXTargetDependency */,
+				E8F9143CD6039A4D7DB252645BF3E697 /* PBXTargetDependency */,
+			);
+			name = "Pods-LiveChatSwift";
+			productName = "Pods-LiveChatSwift";
+			productReference = E89EA45D27BD5E7EF6CE74224EA25B67 /* Pods_LiveChatSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3847153A6E5EEFB86565BA840768F429 /* SDWebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 246A0948C59FBF05242520FAEBD56E26 /* Build configuration list for PBXNativeTarget "SDWebImage" */;
+			buildPhases = (
+				AABD6F201988C193442D27E208F6A88B /* Headers */,
+				92DD756E1D0B3C37B3D88CE8B5BB23AE /* Sources */,
+				478F42984AC1820646B29114125B775A /* Frameworks */,
+				364616CA151588E77CABC314C69095AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDWebImage;
+			productName = SDWebImage;
+			productReference = B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		939C7719418129192F372E3CA891A8FC /* Pods-LiveChatSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 391EF5A2CDCBFF1947E10230235F1FFA /* Build configuration list for PBXNativeTarget "Pods-LiveChatSwiftUITests" */;
+			buildPhases = (
+				9C3EFFA6F4343F29CEF664B863BECA29 /* Headers */,
+				709B15F141D1B3B39B7EA660E0263194 /* Sources */,
+				A97E2A1B900D3E5FB16E5B0C4E6BA19B /* Frameworks */,
+				2C9431EDE8A84E7E474AB00A497DCE29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D56168026BAA1DE7C1B61B81678C0776 /* PBXTargetDependency */,
+			);
+			name = "Pods-LiveChatSwiftUITests";
+			productName = "Pods-LiveChatSwiftUITests";
+			productReference = 8D2B685D66645D75E15E089E810A1F3C /* Pods_LiveChatSwiftUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E693B9C227E501D9BB20FC0D2AB44C67 /* Pods-LiveChatSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 474D44AC1CBF275BBC20E77AD4E5E847 /* Build configuration list for PBXNativeTarget "Pods-LiveChatSwiftTests" */;
+			buildPhases = (
+				4BDAFDFCA00750958E0430BED620E49A /* Headers */,
+				39E5739BD619806D12A0FC927D2EDDD7 /* Sources */,
+				E1E4BFCFC9B776A7C1AFB44933765FDD /* Frameworks */,
+				0B7D2DE2E99F6DEB07E4819904847B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				853C5E960A6A98F925FAADE1D3D45FC3 /* PBXTargetDependency */,
+			);
+			name = "Pods-LiveChatSwiftTests";
+			productName = "Pods-LiveChatSwiftTests";
+			productReference = 93038561C2BBF651811073E80901DDF1 /* Pods_LiveChatSwiftTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EBD0DAC6C164AE1AEE38C5D3B4A5014A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D97066D01EDC4450897370AB64800B82 /* CometChatPro */,
+				2684B7AA3087B555930ADAE0DF048EC8 /* Pods-LiveChatSwift */,
+				E693B9C227E501D9BB20FC0D2AB44C67 /* Pods-LiveChatSwiftTests */,
+				939C7719418129192F372E3CA891A8FC /* Pods-LiveChatSwiftUITests */,
+				3847153A6E5EEFB86565BA840768F429 /* SDWebImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B7D2DE2E99F6DEB07E4819904847B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C9431EDE8A84E7E474AB00A497DCE29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A9403E2B3E9CCCBDADC67D5422204A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364616CA151588E77CABC314C69095AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39E5739BD619806D12A0FC927D2EDDD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F286A2CD38580D7E496385A14CA4D43B /* Pods-LiveChatSwiftTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709B15F141D1B3B39B7EA660E0263194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A43FD4E0FA39759AA02058D5BF5E9CA /* Pods-LiveChatSwiftUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DD756E1D0B3C37B3D88CE8B5BB23AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01076922ED77BC9B4CAF059B8FBBE570 /* NSButton+WebCache.m in Sources */,
+				F449AB4FFBF27C134240CAB4CBB9C92F /* NSData+ImageContentType.m in Sources */,
+				392256FCED3BBA7477E48DE431180BB8 /* NSImage+WebCache.m in Sources */,
+				4DBB43822E7B391130C5825F4F7D97A5 /* SDAnimatedImageRep.m in Sources */,
+				34CF2E7AE3A76CC37A976F0FF8353284 /* SDImageCache.m in Sources */,
+				34A091954B430D2234E81E5C34762AE1 /* SDImageCacheConfig.m in Sources */,
+				F5B945B199E256880DDBF3FA7F4AD3AB /* SDWebImage-dummy.m in Sources */,
+				5AE72350B31152226EF977A2184AFB6A /* SDWebImageCoder.m in Sources */,
+				6ECBB572ECF24F68BAF76D0ACE33FD12 /* SDWebImageCoderHelper.m in Sources */,
+				2F6892DE92F32DE1C4FA3C6A2FB8B51F /* SDWebImageCodersManager.m in Sources */,
+				611423CC89413541A2057E0FA2E2FE12 /* SDWebImageCompat.m in Sources */,
+				9A6F863C31E90EE225C011E44405AE62 /* SDWebImageDownloader.m in Sources */,
+				378639AD59231D876634C5FB48FA998A /* SDWebImageDownloaderOperation.m in Sources */,
+				CAC4DA22DD2694FB3AECB2EFD72E0F44 /* SDWebImageFrame.m in Sources */,
+				C32ABCEAC0484DC9803C6EB04E47ADE6 /* SDWebImageGIFCoder.m in Sources */,
+				4A8248E022B4A719CF4FE54159752626 /* SDWebImageImageIOCoder.m in Sources */,
+				F5417CE3C0186CFA97A0A8233D3EF020 /* SDWebImageManager.m in Sources */,
+				0F053AF8F8B75FFDCAEECB88AE98E4AE /* SDWebImagePrefetcher.m in Sources */,
+				33F1CEE52536E29DD45AD192B08B4EE3 /* SDWebImageTransition.m in Sources */,
+				9231FB941F688A4A6C960AC7CDE333CE /* UIButton+WebCache.m in Sources */,
+				F92B5539F330FEFEEF0BAF24807C3B03 /* UIImage+ForceDecode.m in Sources */,
+				D7CD8C869BFD9C1B13F498FCE1A5B0E1 /* UIImage+GIF.m in Sources */,
+				4F3B45CF9957AB861287379C4AF99567 /* UIImage+MemoryCacheCost.m in Sources */,
+				67209B45C6D3B8C0449B6B1403F96E96 /* UIImage+MultiFormat.m in Sources */,
+				1063567B5B6505DDD4AFE3E1CC00BF1F /* UIImageView+HighlightedWebCache.m in Sources */,
+				FD5D361F9C340B7EB0982B29AF40F13E /* UIImageView+WebCache.m in Sources */,
+				532EEF46CB1AFE9032AC5A0A5AB199C6 /* UIView+WebCache.m in Sources */,
+				D21B5C45428E0F148E056971A90DD435 /* UIView+WebCacheOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADDEF6D7528D8F0E19AEBE39008048DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FB80C18CFDB765CD77DF8BBBE4252A /* Pods-LiveChatSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		853C5E960A6A98F925FAADE1D3D45FC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LiveChatSwift";
+			target = 2684B7AA3087B555930ADAE0DF048EC8 /* Pods-LiveChatSwift */;
+			targetProxy = E6CB78F73B1E50BF12F4721B35A07FF0 /* PBXContainerItemProxy */;
+		};
+		BFE8D906EF437B5198B1DEA3D608E12C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CometChatPro;
+			target = D97066D01EDC4450897370AB64800B82 /* CometChatPro */;
+			targetProxy = D40F7A09BF9FB225CDD02B30CAFC3C56 /* PBXContainerItemProxy */;
+		};
+		D56168026BAA1DE7C1B61B81678C0776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LiveChatSwift";
+			target = 2684B7AA3087B555930ADAE0DF048EC8 /* Pods-LiveChatSwift */;
+			targetProxy = 7B8557B29E00B2539CA6FF79B5E11A58 /* PBXContainerItemProxy */;
+		};
+		E8F9143CD6039A4D7DB252645BF3E697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 3847153A6E5EEFB86565BA840768F429 /* SDWebImage */;
+			targetProxy = 7B675ABBCBE6CA8D3AFFC6FE66996BC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AD202A22C15F54C6D0BC1C9EA7C534E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C7351AF9B8EBE4B41AA6A619D842FB3 /* Pods-LiveChatSwift.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LiveChatSwift/Pods-LiveChatSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LiveChatSwift/Pods-LiveChatSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1E4400CE6345B156ACB9D556BF511BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62621412B40B9B6D39364F69CCED20E2 /* Pods-LiveChatSwift.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LiveChatSwift/Pods-LiveChatSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LiveChatSwift/Pods-LiveChatSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		369C21315DBFE401A4A447A39F4FABD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11BF224DD12258D9EA4B97B9430EA887 /* Pods-LiveChatSwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LiveChatSwiftUITests/Pods-LiveChatSwiftUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LiveChatSwiftUITests/Pods-LiveChatSwiftUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5FA0246FAFCA91BEA3D1CDC330EF915D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E44F988B6A45F304EFEBA65919042DAF /* SDWebImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/SDWebImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				PRODUCT_MODULE_NAME = SDWebImage;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		611685D0D617FC29C465ACC72F38A9BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFB2C5718A063AD1C232C747D227B845 /* Pods-LiveChatSwiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LiveChatSwiftUITests/Pods-LiveChatSwiftUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LiveChatSwiftUITests/Pods-LiveChatSwiftUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ABF0B5DA35456C43E7575A9A7309C821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58AF83E127224C0C8FA754D256A9114A /* Pods-LiveChatSwiftTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LiveChatSwiftTests/Pods-LiveChatSwiftTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LiveChatSwiftTests/Pods-LiveChatSwiftTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE89932EE5F77B626CE1A48ACB880A33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79EE7FF5638B6EF72322BDD0BE843555 /* CometChatPro.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D59207522FEFEEAD05124CD28A7E67A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79EE7FF5638B6EF72322BDD0BE843555 /* CometChatPro.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDDC98176EE49580E13D97D175B9B6B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEC52ED5EF328D9BE56CFC45573ECA7B /* Pods-LiveChatSwiftTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LiveChatSwiftTests/Pods-LiveChatSwiftTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LiveChatSwiftTests/Pods-LiveChatSwiftTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F1181AC287725B4D1A302AB1A35B3BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E44F988B6A45F304EFEBA65919042DAF /* SDWebImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/SDWebImage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				PRODUCT_MODULE_NAME = SDWebImage;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		246A0948C59FBF05242520FAEBD56E26 /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1181AC287725B4D1A302AB1A35B3BFD /* Debug */,
+				5FA0246FAFCA91BEA3D1CDC330EF915D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		391EF5A2CDCBFF1947E10230235F1FFA /* Build configuration list for PBXNativeTarget "Pods-LiveChatSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				369C21315DBFE401A4A447A39F4FABD9 /* Debug */,
+				611685D0D617FC29C465ACC72F38A9BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		474D44AC1CBF275BBC20E77AD4E5E847 /* Build configuration list for PBXNativeTarget "Pods-LiveChatSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF0B5DA35456C43E7575A9A7309C821 /* Debug */,
+				DDDC98176EE49580E13D97D175B9B6B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8866C3D875477A462E6A4090C52D3221 /* Build configuration list for PBXNativeTarget "Pods-LiveChatSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD202A22C15F54C6D0BC1C9EA7C534E /* Debug */,
+				1E4400CE6345B156ACB9D556BF511BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A58B210E081DC82EDF9B31A6DA954850 /* Build configuration list for PBXAggregateTarget "CometChatPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE89932EE5F77B626CE1A48ACB880A33 /* Debug */,
+				D59207522FEFEEAD05124CD28A7E67A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

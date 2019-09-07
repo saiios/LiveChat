@@ -1,0 +1,6 @@
+framework module Pods_LiveChatSwiftUITests {
+  umbrella header "Pods-LiveChatSwiftUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

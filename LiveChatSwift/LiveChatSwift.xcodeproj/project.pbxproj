@@ -1,0 +1,1042 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32FC26BA23240F3800B6A673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC26B923240F3800B6A673 /* AppDelegate.swift */; };
+		32FC26BF23240F3800B6A673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FC26BD23240F3800B6A673 /* Main.storyboard */; };
+		32FC26C223240F3800B6A673 /* LiveChatSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32FC26C023240F3800B6A673 /* LiveChatSwift.xcdatamodeld */; };
+		32FC26C423240F3900B6A673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32FC26C323240F3900B6A673 /* Assets.xcassets */; };
+		32FC26C723240F3900B6A673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FC26C523240F3900B6A673 /* LaunchScreen.storyboard */; };
+		32FC26D223240F3900B6A673 /* LiveChatSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC26D123240F3900B6A673 /* LiveChatSwiftTests.swift */; };
+		32FC26DD23240F3900B6A673 /* LiveChatSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC26DC23240F3900B6A673 /* LiveChatSwiftUITests.swift */; };
+		32FC26EF2324116F00B6A673 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32FC26EE2324116F00B6A673 /* Localizable.strings */; };
+		32FC26FD232411EA00B6A673 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC26F1232411EA00B6A673 /* Toast.swift */; };
+		32FC26FE232411EA00B6A673 /* PryntTrimmerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FC26F2232411EA00B6A673 /* PryntTrimmerView.framework */; };
+		32FC26FF232411EA00B6A673 /* YPImagePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FC26F3232411EA00B6A673 /* YPImagePicker.framework */; };
+		32FC2700232411EA00B6A673 /* CCBottomSlideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC26F4232411EA00B6A673 /* CCBottomSlideController.swift */; };
+		32FC2701232411EA00B6A673 /* ZFRippleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC26F5232411EA00B6A673 /* ZFRippleButton.swift */; };
+		32FC2702232411EA00B6A673 /* UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC26F6232411EA00B6A673 /* UIWindow.swift */; };
+		32FC2703232411EA00B6A673 /* XLActionController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FC26F7232411EA00B6A673 /* XLActionController.framework */; };
+		32FC2704232411EA00B6A673 /* ImageCacheLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC26F8232411EA00B6A673 /* ImageCacheLoader.swift */; };
+		32FC2705232411EA00B6A673 /* CCExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC26F9232411EA00B6A673 /* CCExtensions.swift */; };
+		32FC2706232411EA00B6A673 /* AMShimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC26FA232411EA00B6A673 /* AMShimmer.swift */; };
+		32FC2707232411EA00B6A673 /* CCActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC26FB232411EA00B6A673 /* CCActivityIndicator.swift */; };
+		32FC2708232411EA00B6A673 /* Stevia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FC26FC232411EA00B6A673 /* Stevia.framework */; };
+		32FC2709232411F400B6A673 /* Stevia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FC26FC232411EA00B6A673 /* Stevia.framework */; };
+		32FC270A232411F400B6A673 /* Stevia.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 32FC26FC232411EA00B6A673 /* Stevia.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		32FC270C232411FF00B6A673 /* YPImagePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FC26F3232411EA00B6A673 /* YPImagePicker.framework */; };
+		32FC270D232411FF00B6A673 /* YPImagePicker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 32FC26F3232411EA00B6A673 /* YPImagePicker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		32FC270E2324120500B6A673 /* XLActionController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FC26F7232411EA00B6A673 /* XLActionController.framework */; };
+		32FC270F2324120500B6A673 /* XLActionController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 32FC26F7232411EA00B6A673 /* XLActionController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		32FC27102324121000B6A673 /* PryntTrimmerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FC26F2232411EA00B6A673 /* PryntTrimmerView.framework */; };
+		32FC27112324121000B6A673 /* PryntTrimmerView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 32FC26F2232411EA00B6A673 /* PryntTrimmerView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		32FC271E2324128100B6A673 /* SkypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32FC27132324128100B6A673 /* SkypeCell.xib */; };
+		32FC271F2324128100B6A673 /* BlockedUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32FC27142324128100B6A673 /* BlockedUserCell.xib */; };
+		32FC27202324128100B6A673 /* ChatActionMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC27152324128100B6A673 /* ChatActionMessageCell.swift */; };
+		32FC27212324128100B6A673 /* ChatActionMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32FC27162324128100B6A673 /* ChatActionMessageCell.xib */; };
+		32FC27222324128100B6A673 /* ChatDeletedMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC27172324128100B6A673 /* ChatDeletedMessageCell.swift */; };
+		32FC27232324128100B6A673 /* ChatImageMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC27182324128100B6A673 /* ChatImageMessageCell.swift */; };
+		32FC27242324128100B6A673 /* ChatVideoMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC27192324128100B6A673 /* ChatVideoMessageCell.swift */; };
+		32FC27252324128100B6A673 /* ChatMediaMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC271A2324128100B6A673 /* ChatMediaMessageCell.swift */; };
+		32FC27262324128100B6A673 /* Skype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC271B2324128100B6A673 /* Skype.swift */; };
+		32FC27272324128100B6A673 /* BlockedUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC271C2324128100B6A673 /* BlockedUserCell.swift */; };
+		32FC27282324128100B6A673 /* ChatTextMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC271D2324128100B6A673 /* ChatTextMessageCell.swift */; };
+		32FC272B232412AA00B6A673 /* CometChatLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC272A232412AA00B6A673 /* CometChatLog.swift */; };
+		32FC272E232412D300B6A673 /* UIAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC272C232412D200B6A673 /* UIAppearance.swift */; };
+		32FC272F232412D300B6A673 /* CometChat-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32FC272D232412D300B6A673 /* CometChat-info.plist */; };
+		32FC27322324133700B6A673 /* BlockedUsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC27312324133700B6A673 /* BlockedUsersVC.swift */; };
+		32FC27342324133F00B6A673 /* CallingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC27332324133F00B6A673 /* CallingViewController.swift */; };
+		32FC27362324134600B6A673 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC27352324134600B6A673 /* ChatViewController.swift */; };
+		32FC27392324134F00B6A673 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC27372324134F00B6A673 /* NavigationViewController.swift */; };
+		32FC273A2324134F00B6A673 /* EmbeddedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC27382324134F00B6A673 /* EmbeddedViewController.swift */; };
+		32FC273F2324135800B6A673 /* CreateGroupcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC273B2324135800B6A673 /* CreateGroupcontroller.swift */; };
+		32FC27402324135800B6A673 /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC273C2324135800B6A673 /* GroupTableViewCell.swift */; };
+		32FC27412324135800B6A673 /* GroupNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC273D2324135800B6A673 /* GroupNavigationController.swift */; };
+		32FC27422324135800B6A673 /* GroupListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC273E2324135800B6A673 /* GroupListViewController.swift */; };
+		32FC27462324136000B6A673 /* StartUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC27432324136000B6A673 /* StartUpViewController.swift */; };
+		32FC27472324136000B6A673 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC27442324136000B6A673 /* LoginViewController.swift */; };
+		32FC27482324136000B6A673 /* CCTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC27452324136000B6A673 /* CCTabbar.swift */; };
+		32FC274C2324136800B6A673 /* PopOverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC27492324136700B6A673 /* PopOverController.swift */; };
+		32FC274D2324136800B6A673 /* MoreSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC274A2324136700B6A673 /* MoreSettingsViewController.swift */; };
+		32FC274E2324136800B6A673 /* MoreSettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC274B2324136800B6A673 /* MoreSettingTableViewCell.swift */; };
+		32FC27522324137000B6A673 /* CCprofileAvtarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC274F2324137000B6A673 /* CCprofileAvtarViewController.swift */; };
+		32FC27532324137000B6A673 /* UserProfileViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC27502324137000B6A673 /* UserProfileViewCell.swift */; };
+		32FC27542324137000B6A673 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC27512324137000B6A673 /* UserProfileViewController.swift */; };
+		32FC27582324137800B6A673 /* RecentNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC27552324137800B6A673 /* RecentNavigationController.swift */; };
+		32FC27592324137800B6A673 /* RecentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC27562324137800B6A673 /* RecentListViewController.swift */; };
+		32FC275A2324137800B6A673 /* RecentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC27572324137800B6A673 /* RecentTableViewCell.swift */; };
+		32FC275C2324138000B6A673 /* CCTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC275B2324138000B6A673 /* CCTabBarController.swift */; };
+		32FC27602324138800B6A673 /* ContactsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC275D2324138800B6A673 /* ContactsNavigationController.swift */; };
+		32FC27612324138800B6A673 /* OneOnOneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC275E2324138800B6A673 /* OneOnOneTableViewCell.swift */; };
+		32FC27622324138800B6A673 /* OneOnOneListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC275F2324138800B6A673 /* OneOnOneListViewController.swift */; };
+		32FC27652324139000B6A673 /* ViewMemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC27632324138F00B6A673 /* ViewMemberTableViewCell.swift */; };
+		32FC27662324139000B6A673 /* ViewMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC27642324138F00B6A673 /* ViewMemberViewController.swift */; };
+		3502F8BC3ACC0385366F70CE /* Pods_LiveChatSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CBB439F73A7CD6CA94D729 /* Pods_LiveChatSwiftTests.framework */; };
+		613F02A7F59AC3921605FD23 /* Pods_LiveChatSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C696852CE87BC5FB8E6C441 /* Pods_LiveChatSwift.framework */; };
+		AF023F9FC717D331E564062A /* Pods_LiveChatSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD66CAB384393E277C66FE8A /* Pods_LiveChatSwiftUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32FC26CE23240F3900B6A673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32FC26AE23240F3800B6A673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32FC26B523240F3800B6A673;
+			remoteInfo = LiveChatSwift;
+		};
+		32FC26D923240F3900B6A673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32FC26AE23240F3800B6A673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32FC26B523240F3800B6A673;
+			remoteInfo = LiveChatSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		32FC270B232411F400B6A673 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				32FC270F2324120500B6A673 /* XLActionController.framework in Embed Frameworks */,
+				32FC270A232411F400B6A673 /* Stevia.framework in Embed Frameworks */,
+				32FC27112324121000B6A673 /* PryntTrimmerView.framework in Embed Frameworks */,
+				32FC270D232411FF00B6A673 /* YPImagePicker.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0FD1F78DC7C614E8B569BF9D /* Pods-LiveChatSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveChatSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-LiveChatSwiftTests/Pods-LiveChatSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		309051D0AAD6BEEE01262029 /* Pods-LiveChatSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveChatSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-LiveChatSwiftUITests/Pods-LiveChatSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		32FC26B623240F3800B6A673 /* LiveChatSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveChatSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FC26B923240F3800B6A673 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32FC26BE23240F3800B6A673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32FC26C123240F3800B6A673 /* LiveChatSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LiveChatSwift.xcdatamodel; sourceTree = "<group>"; };
+		32FC26C323240F3900B6A673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32FC26C623240F3900B6A673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32FC26C823240F3900B6A673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32FC26CD23240F3900B6A673 /* LiveChatSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveChatSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FC26D123240F3900B6A673 /* LiveChatSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveChatSwiftTests.swift; sourceTree = "<group>"; };
+		32FC26D323240F3900B6A673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32FC26D823240F3900B6A673 /* LiveChatSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveChatSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FC26DC23240F3900B6A673 /* LiveChatSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveChatSwiftUITests.swift; sourceTree = "<group>"; };
+		32FC26DE23240F3900B6A673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32FC26EB2324116000B6A673 /* Product Sans Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Product Sans Bold.ttf"; sourceTree = "<group>"; };
+		32FC26EC2324116000B6A673 /* Product Sans Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Product Sans Italic.ttf"; sourceTree = "<group>"; };
+		32FC26ED2324116000B6A673 /* Product Sans Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Product Sans Regular.ttf"; sourceTree = "<group>"; };
+		32FC26EE2324116F00B6A673 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		32FC26F1232411EA00B6A673 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		32FC26F2232411EA00B6A673 /* PryntTrimmerView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PryntTrimmerView.framework; sourceTree = "<group>"; };
+		32FC26F3232411EA00B6A673 /* YPImagePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YPImagePicker.framework; sourceTree = "<group>"; };
+		32FC26F4232411EA00B6A673 /* CCBottomSlideController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCBottomSlideController.swift; sourceTree = "<group>"; };
+		32FC26F5232411EA00B6A673 /* ZFRippleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFRippleButton.swift; sourceTree = "<group>"; };
+		32FC26F6232411EA00B6A673 /* UIWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIWindow.swift; sourceTree = "<group>"; };
+		32FC26F7232411EA00B6A673 /* XLActionController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XLActionController.framework; sourceTree = "<group>"; };
+		32FC26F8232411EA00B6A673 /* ImageCacheLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCacheLoader.swift; sourceTree = "<group>"; };
+		32FC26F9232411EA00B6A673 /* CCExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCExtensions.swift; sourceTree = "<group>"; };
+		32FC26FA232411EA00B6A673 /* AMShimmer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMShimmer.swift; sourceTree = "<group>"; };
+		32FC26FB232411EA00B6A673 /* CCActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCActivityIndicator.swift; sourceTree = "<group>"; };
+		32FC26FC232411EA00B6A673 /* Stevia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Stevia.framework; sourceTree = "<group>"; };
+		32FC27132324128100B6A673 /* SkypeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SkypeCell.xib; sourceTree = "<group>"; };
+		32FC27142324128100B6A673 /* BlockedUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlockedUserCell.xib; sourceTree = "<group>"; };
+		32FC27152324128100B6A673 /* ChatActionMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatActionMessageCell.swift; sourceTree = "<group>"; };
+		32FC27162324128100B6A673 /* ChatActionMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatActionMessageCell.xib; sourceTree = "<group>"; };
+		32FC27172324128100B6A673 /* ChatDeletedMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatDeletedMessageCell.swift; sourceTree = "<group>"; };
+		32FC27182324128100B6A673 /* ChatImageMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatImageMessageCell.swift; sourceTree = "<group>"; };
+		32FC27192324128100B6A673 /* ChatVideoMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatVideoMessageCell.swift; sourceTree = "<group>"; };
+		32FC271A2324128100B6A673 /* ChatMediaMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMediaMessageCell.swift; sourceTree = "<group>"; };
+		32FC271B2324128100B6A673 /* Skype.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Skype.swift; sourceTree = "<group>"; };
+		32FC271C2324128100B6A673 /* BlockedUserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockedUserCell.swift; sourceTree = "<group>"; };
+		32FC271D2324128100B6A673 /* ChatTextMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTextMessageCell.swift; sourceTree = "<group>"; };
+		32FC272A232412AA00B6A673 /* CometChatLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CometChatLog.swift; sourceTree = "<group>"; };
+		32FC272C232412D200B6A673 /* UIAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAppearance.swift; sourceTree = "<group>"; };
+		32FC272D232412D300B6A673 /* CometChat-info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CometChat-info.plist"; sourceTree = "<group>"; };
+		32FC27312324133700B6A673 /* BlockedUsersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockedUsersVC.swift; sourceTree = "<group>"; };
+		32FC27332324133F00B6A673 /* CallingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallingViewController.swift; sourceTree = "<group>"; };
+		32FC27352324134600B6A673 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		32FC27372324134F00B6A673 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		32FC27382324134F00B6A673 /* EmbeddedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmbeddedViewController.swift; sourceTree = "<group>"; };
+		32FC273B2324135800B6A673 /* CreateGroupcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGroupcontroller.swift; sourceTree = "<group>"; };
+		32FC273C2324135800B6A673 /* GroupTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		32FC273D2324135800B6A673 /* GroupNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupNavigationController.swift; sourceTree = "<group>"; };
+		32FC273E2324135800B6A673 /* GroupListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupListViewController.swift; sourceTree = "<group>"; };
+		32FC27432324136000B6A673 /* StartUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartUpViewController.swift; sourceTree = "<group>"; };
+		32FC27442324136000B6A673 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		32FC27452324136000B6A673 /* CCTabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCTabbar.swift; sourceTree = "<group>"; };
+		32FC27492324136700B6A673 /* PopOverController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopOverController.swift; sourceTree = "<group>"; };
+		32FC274A2324136700B6A673 /* MoreSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreSettingsViewController.swift; sourceTree = "<group>"; };
+		32FC274B2324136800B6A673 /* MoreSettingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreSettingTableViewCell.swift; sourceTree = "<group>"; };
+		32FC274F2324137000B6A673 /* CCprofileAvtarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCprofileAvtarViewController.swift; sourceTree = "<group>"; };
+		32FC27502324137000B6A673 /* UserProfileViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewCell.swift; sourceTree = "<group>"; };
+		32FC27512324137000B6A673 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		32FC27552324137800B6A673 /* RecentNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentNavigationController.swift; sourceTree = "<group>"; };
+		32FC27562324137800B6A673 /* RecentListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentListViewController.swift; sourceTree = "<group>"; };
+		32FC27572324137800B6A673 /* RecentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentTableViewCell.swift; sourceTree = "<group>"; };
+		32FC275B2324138000B6A673 /* CCTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCTabBarController.swift; sourceTree = "<group>"; };
+		32FC275D2324138800B6A673 /* ContactsNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsNavigationController.swift; sourceTree = "<group>"; };
+		32FC275E2324138800B6A673 /* OneOnOneTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneOnOneTableViewCell.swift; sourceTree = "<group>"; };
+		32FC275F2324138800B6A673 /* OneOnOneListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneOnOneListViewController.swift; sourceTree = "<group>"; };
+		32FC27632324138F00B6A673 /* ViewMemberTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewMemberTableViewCell.swift; sourceTree = "<group>"; };
+		32FC27642324138F00B6A673 /* ViewMemberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewMemberViewController.swift; sourceTree = "<group>"; };
+		32FC27682324157800B6A673 /* LiveChatSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LiveChatSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		379FCA7B784E630B1627A106 /* Pods-LiveChatSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveChatSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-LiveChatSwiftTests/Pods-LiveChatSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		9C696852CE87BC5FB8E6C441 /* Pods_LiveChatSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiveChatSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A4AF61B9D8F9FE211ADFEC /* Pods-LiveChatSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveChatSwift.debug.xcconfig"; path = "Target Support Files/Pods-LiveChatSwift/Pods-LiveChatSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		B3CBB439F73A7CD6CA94D729 /* Pods_LiveChatSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiveChatSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD4BE7A69CD7CA79AE2DF45 /* Pods-LiveChatSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveChatSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-LiveChatSwiftUITests/Pods-LiveChatSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C998CE5870C61CB69EBFC849 /* Pods-LiveChatSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveChatSwift.release.xcconfig"; path = "Target Support Files/Pods-LiveChatSwift/Pods-LiveChatSwift.release.xcconfig"; sourceTree = "<group>"; };
+		DD66CAB384393E277C66FE8A /* Pods_LiveChatSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiveChatSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32FC26B323240F3800B6A673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FC2709232411F400B6A673 /* Stevia.framework in Frameworks */,
+				32FC270C232411FF00B6A673 /* YPImagePicker.framework in Frameworks */,
+				32FC26FF232411EA00B6A673 /* YPImagePicker.framework in Frameworks */,
+				32FC27102324121000B6A673 /* PryntTrimmerView.framework in Frameworks */,
+				32FC26FE232411EA00B6A673 /* PryntTrimmerView.framework in Frameworks */,
+				32FC2708232411EA00B6A673 /* Stevia.framework in Frameworks */,
+				32FC2703232411EA00B6A673 /* XLActionController.framework in Frameworks */,
+				32FC270E2324120500B6A673 /* XLActionController.framework in Frameworks */,
+				613F02A7F59AC3921605FD23 /* Pods_LiveChatSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FC26CA23240F3900B6A673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3502F8BC3ACC0385366F70CE /* Pods_LiveChatSwiftTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FC26D523240F3900B6A673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF023F9FC717D331E564062A /* Pods_LiveChatSwiftUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DB052976FB31FA61A360EDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6A4AF61B9D8F9FE211ADFEC /* Pods-LiveChatSwift.debug.xcconfig */,
+				C998CE5870C61CB69EBFC849 /* Pods-LiveChatSwift.release.xcconfig */,
+				0FD1F78DC7C614E8B569BF9D /* Pods-LiveChatSwiftTests.debug.xcconfig */,
+				379FCA7B784E630B1627A106 /* Pods-LiveChatSwiftTests.release.xcconfig */,
+				309051D0AAD6BEEE01262029 /* Pods-LiveChatSwiftUITests.debug.xcconfig */,
+				BAD4BE7A69CD7CA79AE2DF45 /* Pods-LiveChatSwiftUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		32FC26AD23240F3800B6A673 = {
+			isa = PBXGroup;
+			children = (
+				32FC26B823240F3800B6A673 /* LiveChatSwift */,
+				32FC26D023240F3900B6A673 /* LiveChatSwiftTests */,
+				32FC26DB23240F3900B6A673 /* LiveChatSwiftUITests */,
+				32FC26B723240F3800B6A673 /* Products */,
+				2DB052976FB31FA61A360EDA /* Pods */,
+				A7AA3989E9BAE8F02BE19D62 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		32FC26B723240F3800B6A673 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32FC26B623240F3800B6A673 /* LiveChatSwift.app */,
+				32FC26CD23240F3900B6A673 /* LiveChatSwiftTests.xctest */,
+				32FC26D823240F3900B6A673 /* LiveChatSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32FC26B823240F3800B6A673 /* LiveChatSwift */ = {
+			isa = PBXGroup;
+			children = (
+				32FC27302324130800B6A673 /* Controller */,
+				32FC272D232412D300B6A673 /* CometChat-info.plist */,
+				32FC272C232412D200B6A673 /* UIAppearance.swift */,
+				32FC27292324129600B6A673 /* Model */,
+				32FC27122324125200B6A673 /* View */,
+				32FC26F0232411D500B6A673 /* Extentions */,
+				32FC26EA232410F900B6A673 /* Resources */,
+				32FC26B923240F3800B6A673 /* AppDelegate.swift */,
+				32FC26BD23240F3800B6A673 /* Main.storyboard */,
+				32FC26C523240F3900B6A673 /* LaunchScreen.storyboard */,
+				32FC26C823240F3900B6A673 /* Info.plist */,
+				32FC26C023240F3800B6A673 /* LiveChatSwift.xcdatamodeld */,
+			);
+			path = LiveChatSwift;
+			sourceTree = "<group>";
+		};
+		32FC26D023240F3900B6A673 /* LiveChatSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				32FC26D123240F3900B6A673 /* LiveChatSwiftTests.swift */,
+				32FC26D323240F3900B6A673 /* Info.plist */,
+			);
+			path = LiveChatSwiftTests;
+			sourceTree = "<group>";
+		};
+		32FC26DB23240F3900B6A673 /* LiveChatSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32FC26DC23240F3900B6A673 /* LiveChatSwiftUITests.swift */,
+				32FC26DE23240F3900B6A673 /* Info.plist */,
+			);
+			path = LiveChatSwiftUITests;
+			sourceTree = "<group>";
+		};
+		32FC26EA232410F900B6A673 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32FC26EE2324116F00B6A673 /* Localizable.strings */,
+				32FC26EB2324116000B6A673 /* Product Sans Bold.ttf */,
+				32FC26EC2324116000B6A673 /* Product Sans Italic.ttf */,
+				32FC26ED2324116000B6A673 /* Product Sans Regular.ttf */,
+				32FC26C323240F3900B6A673 /* Assets.xcassets */,
+				32FC27682324157800B6A673 /* LiveChatSwift-Bridging-Header.h */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		32FC26F0232411D500B6A673 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				32FC26FA232411EA00B6A673 /* AMShimmer.swift */,
+				32FC26FB232411EA00B6A673 /* CCActivityIndicator.swift */,
+				32FC26F4232411EA00B6A673 /* CCBottomSlideController.swift */,
+				32FC26F9232411EA00B6A673 /* CCExtensions.swift */,
+				32FC26F8232411EA00B6A673 /* ImageCacheLoader.swift */,
+				32FC26F2232411EA00B6A673 /* PryntTrimmerView.framework */,
+				32FC26FC232411EA00B6A673 /* Stevia.framework */,
+				32FC26F1232411EA00B6A673 /* Toast.swift */,
+				32FC26F6232411EA00B6A673 /* UIWindow.swift */,
+				32FC26F7232411EA00B6A673 /* XLActionController.framework */,
+				32FC26F3232411EA00B6A673 /* YPImagePicker.framework */,
+				32FC26F5232411EA00B6A673 /* ZFRippleButton.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		32FC27122324125200B6A673 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				32FC271C2324128100B6A673 /* BlockedUserCell.swift */,
+				32FC27142324128100B6A673 /* BlockedUserCell.xib */,
+				32FC27152324128100B6A673 /* ChatActionMessageCell.swift */,
+				32FC27162324128100B6A673 /* ChatActionMessageCell.xib */,
+				32FC27172324128100B6A673 /* ChatDeletedMessageCell.swift */,
+				32FC27182324128100B6A673 /* ChatImageMessageCell.swift */,
+				32FC271A2324128100B6A673 /* ChatMediaMessageCell.swift */,
+				32FC271D2324128100B6A673 /* ChatTextMessageCell.swift */,
+				32FC27192324128100B6A673 /* ChatVideoMessageCell.swift */,
+				32FC271B2324128100B6A673 /* Skype.swift */,
+				32FC27132324128100B6A673 /* SkypeCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		32FC27292324129600B6A673 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				32FC272A232412AA00B6A673 /* CometChatLog.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		32FC27302324130800B6A673 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				32FC27632324138F00B6A673 /* ViewMemberTableViewCell.swift */,
+				32FC27642324138F00B6A673 /* ViewMemberViewController.swift */,
+				32FC275D2324138800B6A673 /* ContactsNavigationController.swift */,
+				32FC275F2324138800B6A673 /* OneOnOneListViewController.swift */,
+				32FC275E2324138800B6A673 /* OneOnOneTableViewCell.swift */,
+				32FC275B2324138000B6A673 /* CCTabBarController.swift */,
+				32FC27562324137800B6A673 /* RecentListViewController.swift */,
+				32FC27552324137800B6A673 /* RecentNavigationController.swift */,
+				32FC27572324137800B6A673 /* RecentTableViewCell.swift */,
+				32FC274F2324137000B6A673 /* CCprofileAvtarViewController.swift */,
+				32FC27502324137000B6A673 /* UserProfileViewCell.swift */,
+				32FC27512324137000B6A673 /* UserProfileViewController.swift */,
+				32FC274A2324136700B6A673 /* MoreSettingsViewController.swift */,
+				32FC274B2324136800B6A673 /* MoreSettingTableViewCell.swift */,
+				32FC27492324136700B6A673 /* PopOverController.swift */,
+				32FC27452324136000B6A673 /* CCTabbar.swift */,
+				32FC27442324136000B6A673 /* LoginViewController.swift */,
+				32FC27432324136000B6A673 /* StartUpViewController.swift */,
+				32FC273B2324135800B6A673 /* CreateGroupcontroller.swift */,
+				32FC273E2324135800B6A673 /* GroupListViewController.swift */,
+				32FC273D2324135800B6A673 /* GroupNavigationController.swift */,
+				32FC273C2324135800B6A673 /* GroupTableViewCell.swift */,
+				32FC27382324134F00B6A673 /* EmbeddedViewController.swift */,
+				32FC27372324134F00B6A673 /* NavigationViewController.swift */,
+				32FC27352324134600B6A673 /* ChatViewController.swift */,
+				32FC27332324133F00B6A673 /* CallingViewController.swift */,
+				32FC27312324133700B6A673 /* BlockedUsersVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A7AA3989E9BAE8F02BE19D62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C696852CE87BC5FB8E6C441 /* Pods_LiveChatSwift.framework */,
+				B3CBB439F73A7CD6CA94D729 /* Pods_LiveChatSwiftTests.framework */,
+				DD66CAB384393E277C66FE8A /* Pods_LiveChatSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32FC26B523240F3800B6A673 /* LiveChatSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32FC26E123240F3900B6A673 /* Build configuration list for PBXNativeTarget "LiveChatSwift" */;
+			buildPhases = (
+				FDE5EEC40381B98412185B35 /* [CP] Check Pods Manifest.lock */,
+				32FC26B223240F3800B6A673 /* Sources */,
+				32FC26B323240F3800B6A673 /* Frameworks */,
+				32FC26B423240F3800B6A673 /* Resources */,
+				353C230660F5E04AE059E534 /* [CP] Embed Pods Frameworks */,
+				32FC270B232411F400B6A673 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveChatSwift;
+			productName = LiveChatSwift;
+			productReference = 32FC26B623240F3800B6A673 /* LiveChatSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32FC26CC23240F3900B6A673 /* LiveChatSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32FC26E423240F3900B6A673 /* Build configuration list for PBXNativeTarget "LiveChatSwiftTests" */;
+			buildPhases = (
+				269AD7B1456D1DA33D29353C /* [CP] Check Pods Manifest.lock */,
+				32FC26C923240F3900B6A673 /* Sources */,
+				32FC26CA23240F3900B6A673 /* Frameworks */,
+				32FC26CB23240F3900B6A673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32FC26CF23240F3900B6A673 /* PBXTargetDependency */,
+			);
+			name = LiveChatSwiftTests;
+			productName = LiveChatSwiftTests;
+			productReference = 32FC26CD23240F3900B6A673 /* LiveChatSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32FC26D723240F3900B6A673 /* LiveChatSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32FC26E723240F3900B6A673 /* Build configuration list for PBXNativeTarget "LiveChatSwiftUITests" */;
+			buildPhases = (
+				6040B6A9A78BEB7F1FB5094C /* [CP] Check Pods Manifest.lock */,
+				32FC26D423240F3900B6A673 /* Sources */,
+				32FC26D523240F3900B6A673 /* Frameworks */,
+				32FC26D623240F3900B6A673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32FC26DA23240F3900B6A673 /* PBXTargetDependency */,
+			);
+			name = LiveChatSwiftUITests;
+			productName = LiveChatSwiftUITests;
+			productReference = 32FC26D823240F3900B6A673 /* LiveChatSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32FC26AE23240F3800B6A673 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = sai;
+				TargetAttributes = {
+					32FC26B523240F3800B6A673 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					32FC26CC23240F3900B6A673 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 32FC26B523240F3800B6A673;
+					};
+					32FC26D723240F3900B6A673 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 32FC26B523240F3800B6A673;
+					};
+				};
+			};
+			buildConfigurationList = 32FC26B123240F3800B6A673 /* Build configuration list for PBXProject "LiveChatSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32FC26AD23240F3800B6A673;
+			productRefGroup = 32FC26B723240F3800B6A673 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32FC26B523240F3800B6A673 /* LiveChatSwift */,
+				32FC26CC23240F3900B6A673 /* LiveChatSwiftTests */,
+				32FC26D723240F3900B6A673 /* LiveChatSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32FC26B423240F3800B6A673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FC26C723240F3900B6A673 /* LaunchScreen.storyboard in Resources */,
+				32FC27212324128100B6A673 /* ChatActionMessageCell.xib in Resources */,
+				32FC271F2324128100B6A673 /* BlockedUserCell.xib in Resources */,
+				32FC26EF2324116F00B6A673 /* Localizable.strings in Resources */,
+				32FC26C423240F3900B6A673 /* Assets.xcassets in Resources */,
+				32FC271E2324128100B6A673 /* SkypeCell.xib in Resources */,
+				32FC26BF23240F3800B6A673 /* Main.storyboard in Resources */,
+				32FC272F232412D300B6A673 /* CometChat-info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FC26CB23240F3900B6A673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FC26D623240F3900B6A673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		269AD7B1456D1DA33D29353C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiveChatSwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		353C230660F5E04AE059E534 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LiveChatSwift/Pods-LiveChatSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LiveChatSwift/Pods-LiveChatSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LiveChatSwift/Pods-LiveChatSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6040B6A9A78BEB7F1FB5094C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiveChatSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDE5EEC40381B98412185B35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiveChatSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32FC26B223240F3800B6A673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FC27392324134F00B6A673 /* NavigationViewController.swift in Sources */,
+				32FC2700232411EA00B6A673 /* CCBottomSlideController.swift in Sources */,
+				32FC275A2324137800B6A673 /* RecentTableViewCell.swift in Sources */,
+				32FC2706232411EA00B6A673 /* AMShimmer.swift in Sources */,
+				32FC27262324128100B6A673 /* Skype.swift in Sources */,
+				32FC2707232411EA00B6A673 /* CCActivityIndicator.swift in Sources */,
+				32FC27592324137800B6A673 /* RecentListViewController.swift in Sources */,
+				32FC275C2324138000B6A673 /* CCTabBarController.swift in Sources */,
+				32FC27522324137000B6A673 /* CCprofileAvtarViewController.swift in Sources */,
+				32FC26C223240F3800B6A673 /* LiveChatSwift.xcdatamodeld in Sources */,
+				32FC27232324128100B6A673 /* ChatImageMessageCell.swift in Sources */,
+				32FC27282324128100B6A673 /* ChatTextMessageCell.swift in Sources */,
+				32FC274E2324136800B6A673 /* MoreSettingTableViewCell.swift in Sources */,
+				32FC27422324135800B6A673 /* GroupListViewController.swift in Sources */,
+				32FC26FD232411EA00B6A673 /* Toast.swift in Sources */,
+				32FC27582324137800B6A673 /* RecentNavigationController.swift in Sources */,
+				32FC27462324136000B6A673 /* StartUpViewController.swift in Sources */,
+				32FC27202324128100B6A673 /* ChatActionMessageCell.swift in Sources */,
+				32FC2705232411EA00B6A673 /* CCExtensions.swift in Sources */,
+				32FC27472324136000B6A673 /* LoginViewController.swift in Sources */,
+				32FC2702232411EA00B6A673 /* UIWindow.swift in Sources */,
+				32FC27602324138800B6A673 /* ContactsNavigationController.swift in Sources */,
+				32FC27252324128100B6A673 /* ChatMediaMessageCell.swift in Sources */,
+				32FC27272324128100B6A673 /* BlockedUserCell.swift in Sources */,
+				32FC2701232411EA00B6A673 /* ZFRippleButton.swift in Sources */,
+				32FC273F2324135800B6A673 /* CreateGroupcontroller.swift in Sources */,
+				32FC27542324137000B6A673 /* UserProfileViewController.swift in Sources */,
+				32FC27622324138800B6A673 /* OneOnOneListViewController.swift in Sources */,
+				32FC2704232411EA00B6A673 /* ImageCacheLoader.swift in Sources */,
+				32FC27342324133F00B6A673 /* CallingViewController.swift in Sources */,
+				32FC27402324135800B6A673 /* GroupTableViewCell.swift in Sources */,
+				32FC27612324138800B6A673 /* OneOnOneTableViewCell.swift in Sources */,
+				32FC27412324135800B6A673 /* GroupNavigationController.swift in Sources */,
+				32FC27362324134600B6A673 /* ChatViewController.swift in Sources */,
+				32FC274D2324136800B6A673 /* MoreSettingsViewController.swift in Sources */,
+				32FC272E232412D300B6A673 /* UIAppearance.swift in Sources */,
+				32FC26BA23240F3800B6A673 /* AppDelegate.swift in Sources */,
+				32FC272B232412AA00B6A673 /* CometChatLog.swift in Sources */,
+				32FC27482324136000B6A673 /* CCTabbar.swift in Sources */,
+				32FC27662324139000B6A673 /* ViewMemberViewController.swift in Sources */,
+				32FC274C2324136800B6A673 /* PopOverController.swift in Sources */,
+				32FC27222324128100B6A673 /* ChatDeletedMessageCell.swift in Sources */,
+				32FC27532324137000B6A673 /* UserProfileViewCell.swift in Sources */,
+				32FC27652324139000B6A673 /* ViewMemberTableViewCell.swift in Sources */,
+				32FC273A2324134F00B6A673 /* EmbeddedViewController.swift in Sources */,
+				32FC27242324128100B6A673 /* ChatVideoMessageCell.swift in Sources */,
+				32FC27322324133700B6A673 /* BlockedUsersVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FC26C923240F3900B6A673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FC26D223240F3900B6A673 /* LiveChatSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FC26D423240F3900B6A673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FC26DD23240F3900B6A673 /* LiveChatSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32FC26CF23240F3900B6A673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32FC26B523240F3800B6A673 /* LiveChatSwift */;
+			targetProxy = 32FC26CE23240F3900B6A673 /* PBXContainerItemProxy */;
+		};
+		32FC26DA23240F3900B6A673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32FC26B523240F3800B6A673 /* LiveChatSwift */;
+			targetProxy = 32FC26D923240F3900B6A673 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32FC26BD23240F3800B6A673 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32FC26BE23240F3800B6A673 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32FC26C523240F3900B6A673 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32FC26C623240F3900B6A673 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32FC26DF23240F3900B6A673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32FC26E023240F3900B6A673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32FC26E223240F3900B6A673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6A4AF61B9D8F9FE211ADFEC /* Pods-LiveChatSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7QCUR4MA3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LiveChatSwift/Extentions",
+				);
+				INFOPLIST_FILE = LiveChatSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sai.LiveChatSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32FC26E323240F3900B6A673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C998CE5870C61CB69EBFC849 /* Pods-LiveChatSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7QCUR4MA3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LiveChatSwift/Extentions",
+				);
+				INFOPLIST_FILE = LiveChatSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sai.LiveChatSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32FC26E523240F3900B6A673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FD1F78DC7C614E8B569BF9D /* Pods-LiveChatSwiftTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7QCUR4MA3;
+				INFOPLIST_FILE = LiveChatSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sai.LiveChatSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveChatSwift.app/LiveChatSwift";
+			};
+			name = Debug;
+		};
+		32FC26E623240F3900B6A673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379FCA7B784E630B1627A106 /* Pods-LiveChatSwiftTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7QCUR4MA3;
+				INFOPLIST_FILE = LiveChatSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sai.LiveChatSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveChatSwift.app/LiveChatSwift";
+			};
+			name = Release;
+		};
+		32FC26E823240F3900B6A673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 309051D0AAD6BEEE01262029 /* Pods-LiveChatSwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7QCUR4MA3;
+				INFOPLIST_FILE = LiveChatSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sai.LiveChatSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LiveChatSwift;
+			};
+			name = Debug;
+		};
+		32FC26E923240F3900B6A673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAD4BE7A69CD7CA79AE2DF45 /* Pods-LiveChatSwiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7QCUR4MA3;
+				INFOPLIST_FILE = LiveChatSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sai.LiveChatSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LiveChatSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32FC26B123240F3800B6A673 /* Build configuration list for PBXProject "LiveChatSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FC26DF23240F3900B6A673 /* Debug */,
+				32FC26E023240F3900B6A673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32FC26E123240F3900B6A673 /* Build configuration list for PBXNativeTarget "LiveChatSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FC26E223240F3900B6A673 /* Debug */,
+				32FC26E323240F3900B6A673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32FC26E423240F3900B6A673 /* Build configuration list for PBXNativeTarget "LiveChatSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FC26E523240F3900B6A673 /* Debug */,
+				32FC26E623240F3900B6A673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32FC26E723240F3900B6A673 /* Build configuration list for PBXNativeTarget "LiveChatSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FC26E823240F3900B6A673 /* Debug */,
+				32FC26E923240F3900B6A673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		32FC26C023240F3800B6A673 /* LiveChatSwift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				32FC26C123240F3800B6A673 /* LiveChatSwift.xcdatamodel */,
+			);
+			currentVersion = 32FC26C123240F3800B6A673 /* LiveChatSwift.xcdatamodel */;
+			path = LiveChatSwift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 32FC26AE23240F3800B6A673 /* Project object */;
+}
